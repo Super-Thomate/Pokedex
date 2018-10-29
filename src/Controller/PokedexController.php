@@ -17,7 +17,14 @@ class PokedexController extends AbstractController {
       // Impossibru
        throw $this -> createNotFoundException ('The pokemon #'.$id.' does not exist') ;
     }
-    return $this -> render ('pokedex/pokemon.html.twig', array ("id" => $id)) ;
+    $params                  =
+              array (   "id" => $id
+                      , "pokemon" => array (    "name" => "TEST"
+                                             , "type1" => "normal"
+                                             , "type2" => ""
+                                           )
+                    ) ;
+    return $this -> render ('pokedex/pokemon.html.twig', $params) ;
   }
   /**
    * @Route("/", name="home")
