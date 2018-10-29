@@ -8,6 +8,7 @@
     <!-- STYLES -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
 {% block stylesheets %}
 {% endblock %}
   <!-- TITLE -->
@@ -17,7 +18,22 @@
     <!-- HEADER -->
     <header>
       <!-- NAV -->
-      <nav>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="{{ path('home') }}">Pokedex</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbars">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Advanced search</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-md-0">
+           <input class="form-control" type="text" placeholder="Search a pokemon">
+         </form>
+        </div>
       </nav>
     </header>
     <!-- MAIN -->

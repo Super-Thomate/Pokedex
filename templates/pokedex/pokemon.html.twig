@@ -1,0 +1,12 @@
+{% extends 'base/base.html.twig' %}
+{%block main%}
+  <h2>#{{id}} - {{pokemon["name"]}}</h2>
+  <section>
+    <figure>
+     <img src="https://dummyimage.com/200x200/333333/dedede.png">
+     <figcaption>
+       {{pokemon["name"]}}
+     </figcaption>
+    </figure>
+  </section>
+{%endblock%}
