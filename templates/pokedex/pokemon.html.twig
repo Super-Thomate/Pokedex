@@ -1,4 +1,7 @@
 {% extends 'base/base.html.twig' %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/pokemon.css') }}">
+{% endblock %}
 {%block main%}
   <h2>#{{id}} - {{pokemon["name"]}}</h2>
   <section>
