@@ -21,7 +21,7 @@ class PokedexController extends AbstractController {
               array (   "id" => $id
                       , "pokemon" => array (    "name" => "TEST"
                                              , "type1" => "normal"
-                                             , "type2" => ""
+                                             , "type2" => "feu"
                                            )
                     ) ;
     return $this -> render ('pokedex/pokemon.html.twig', $params) ;

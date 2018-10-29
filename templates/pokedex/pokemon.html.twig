@@ -12,4 +12,11 @@
      </figcaption>
     </figure>
   </section>
+  <section>
+    <h4>Type</h4>
+    <img src="{{asset("img/types/#{pokemon.type1}.png")}}" alt="">
+    {% if pokemon.type2 %}
+      <img src="{{asset("img/types/#{pokemon.type2}.png")}}" alt="">
+    {% endif %}
+  </section>
 {%endblock%}
