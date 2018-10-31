@@ -19,9 +19,10 @@ class PokedexController extends AbstractController {
     }
     $params                  =
               array (   "id" => $id
-                      , "pokemon" => array (    "name" => "TEST"
-                                             , "type1" => "normal"
-                                             , "type2" => "feu"
+                      , "pokemon" => array (     "name" => "TEST"
+                                             ,  "type1" => "normal"
+                                             ,  "type2" => "feu"
+                                             , "pokeId" => $this -> formatId ($id)
                                            )
                     ) ;
     return $this -> render ('pokedex/pokemon.html.twig', $params) ;
@@ -31,5 +32,15 @@ class PokedexController extends AbstractController {
    */
   public function index () {
       return $this -> render ('base/home.html.twig', array ()) ;
+  }
+  
+  protected function formatId ($id) {
+    return (   $id < 10
+             ? "00".$id
+             : (   $id < 100
+                 ? "0".$id
+                 : $id
+               )
+           ) ;
   }
 }
