@@ -11,4 +11,5 @@
 ###< symfony/web-server-bundle ###
 ###> Misc ###
 *.txt
+*.sh
 ###< Misc ###
