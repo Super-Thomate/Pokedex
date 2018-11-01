@@ -1,0 +1,13 @@
+{%extends 'base/base.html.twig' %}
+{%block main%}
+<form class="" method="post">
+  <input type="hidden" name="handler" value="search">
+  <label for="name">Name: </label>
+  <input type="text" name="name" placeholder="Name">
+  <span for="type1">Type: </span>
+  {%for type in types%}
+  <span class="pointer types" id="{{type}}"><img src="{{asset("img/types/#{type}.png")}}" alt=""></span>
+  {%endfor%}
+  <input type="hidden" name="type" >
+</form>
+{%endblock%}
