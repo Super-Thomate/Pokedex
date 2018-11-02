@@ -1,13 +1,57 @@
 {%extends 'base/base.html.twig' %}
+{%block stylesheets%}
+    <link rel="stylesheet" href="{{ asset('css/search.css') }}">
+{%endblock%}
 {%block main%}
-<form class="" method="post">
+<form class="col-md-6 mx-auto mt-2" method="post">
+  <div class="form-group input-group">
+    <div class="input-group-prepend">
+      <label class="input-group-text">Name</label>
+    </div>
+    <input class="form-control" type="text" name="name" placeholder="Pokename">
+  </div>
+  <div class="text-center">
+    <hr>
+    <div class="d-types">
+    {%for type in types1%}
+      <span class="pointer types" id="{{type}}" data-status="unselected">
+        <img src="{{asset("img/types/#{type}_unselected.png")}}" alt="">
+      </span>
+    {%endfor%}
+    </div>
+    <div class="d-types">
+    {%for type in types2%}
+      <span class="pointer types" id="{{type}}" data-status="unselected">
+        <img src="{{asset("img/types/#{type}_unselected.png")}}" alt="">
+      </span>
+    {%endfor%}
+    </div>
+    <hr>
+    <div class="d-types">
+    {%for gen in 1..7 %}
+      <div class="badge badge-secondary pointer generation">
+        Gen. {{gen}}
+      </div>
+    {%endfor%}
+      {#}<div class="badge badge-warning pointer" id="all_gen">
+        All
+      </div>#}
+    </div>
+    <small id="" class="form-text text-muted">
+      Search in all generations if none are selected.
+    </small>
+    <hr>
+    <div class="mt-2">
+      <button class="btn btn-info" type="submit" id="submit">
+        Search
+      </button>
+    </div>
+  </div>
+  <input type="hidden" name="hi_types" id="hi_types">
+  <input type="hidden" name="hi_generations" id="hi_generations">
   <input type="hidden" name="handler" value="search">
-  <label for="name">Name: </label>
-  <input type="text" name="name" placeholder="Name">
-  <span for="type1">Type: </span>
-  {%for type in types%}
-  <span class="pointer types" id="{{type}}"><img src="{{asset("img/types/#{type}.png")}}" alt=""></span>
-  {%endfor%}
-  <input type="hidden" name="type" >
 </form>
 {%endblock%}
+{% block javascripts %}
+    <script type="text/javascript" src="{{asset('javascript/search.js')}}"></script>
+{% endblock %}

@@ -44,29 +44,32 @@ class PokedexController extends AbstractController {
     if ($handler == "search") {
       //
     }
-    $typeArray               =
-              array (   "acier"
-                      , "combat"
-                      , "dragon"
-                      , "eau"
-                      , "electrik"
-                      , "fee"
-                      , "feu"
-                      , "glace"
-                      , "insecte"
-                      , "normal"
-                      , "plante"
-                      , "poison"
-                      , "psy"
-                      , "roche"
-                      , "sol"
-                      , "spectre"
-                      , "tenebres"
-                      , "vol"
+    $typeArray1              =
+              array (   0 => "acier"
+                      , 1 => "combat"
+                      , 2 => "dragon"
+                      , 3 => "eau"
+                      , 4 => "electrik"
+                      , 5 => "fee"
+                      , 6 => "feu"
+                      , 7 => "glace"
+                      , 8 => "insecte"
+                    ) ;
+    $typeArray2              =
+             array (
+                        0 => "normal"
+                      , 1 => "plante"
+                      , 2 => "poison"
+                      , 3 => "psy"
+                      , 4 => "roche"
+                      , 5 => "sol"
+                      , 6 => "spectre"
+                      , 7 => "tenebres"
+                      , 8 => "vol"
                     ) ;
     $params                  =
-              array (   "types" => $typeArray
-                      //, "" => ""
+              array (   "types1" => $typeArray1
+                      , "types2" => $typeArray2
                     ) ;
     return $this -> render ('base/search.html.twig', $params) ;
   }

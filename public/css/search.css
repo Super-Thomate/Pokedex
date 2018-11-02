@@ -1,0 +1,25 @@
+.pointer {
+  cursor: pointer;
+}
+.d-types {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: justify !important;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+}
+  .generation
+, #all_gen {
+  width: 10% ;
+}
+.badge-test {
+  color:#fff;
+  background-color:#007bff;
+}
+  .badge-test[href]:focus
+, .badge-test[href]:hover {
+  color:#fff;
+  text-decoration:none;
+  background-color:#0062cc;
+}
