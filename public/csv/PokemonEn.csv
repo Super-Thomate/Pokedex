@@ -1,0 +1,921 @@
+id,form,name,generation,type1,type2
+6,MX,Charizard - Mega-X,1,Feu,Dragon
+6,MY,Charizard - Mega-Y,1,Feu,Vol
+113,,Chansey,1,Normal,
+115,M,Kangaskhan - Mega,1,Normal,
+129,,Magikarp,1,Eau,
+260,M,Swampert - Mega,3,Eau,Sol
+302,M,Sableye - Mega,3,Tenèbres,Spectre
+303,M,Mawile - Mega,3,Acier,Fee
+308,M,Medicham - Mega,3,Combat,Psy
+376,M,Metagross - Mega,3,Acier,Psy
+490,,Manaphy,4,Eau,
+491,,Darkrai,4,Tenèbres,
+494,,Victini,4,Psy,Feu
+645,,Landorus,5,Sol,Vol
+645,T,Landorus - Therian,5,Sol,Vol
+646,N,Kyurem Black,5,Dragon,Glace
+649,,Genesect,5,Insecte,Acier
+681,P,Aegislash - Shield Forme,6,Acier,Spectre
+681,A,Aegislash - Blade Forme,6,Acier,Spectre
+718,C,Zygarde,6,Dragon,Sol
+719,M,Diancie - Mega,6,Roche,Fee
+720,E,Hoopa,6,Psy,Spectre
+720,D,Hoopa - Unbound,6,Psy,Tenèbres
+786,,Tapu Lele,7,Psy,Fee
+795,,Pheromosa,7,Insecte,Combat
+798,,Kartana,7,Plante,Acier
+801,,Magearna,7,Acier,Fee
+3,M,Venusaur - Mega,1,Plante,Poison
+36,,Clefable,1,Fee,
+51,,Dugtrio,1,Sol,
+65,M,Alakazam - Mega,1,Psy,
+80,M,Slowbro - Mega,1,Eau,Psy
+94,,Gengar,1,Spectre,Poison
+105,A,Marowak - Alola,1,Feu,Spectre
+127,M,Pinsir - Mega,1,Insecte,Vol
+130,M,Gyarados-Mega,1,Eau,Tenèbres
+145,,Zapdos,1,Electrik,Vol
+149,,Dragonite,1,Dragon,Vol
+151,,Mew,1,Psy,
+184,,Azumarill,2,Eau,Fee
+212,M,Scizor - Mega,2,Insecte,Acier
+214,M,Heracross - Mega,2,Insecte,Combat
+245,,Suicune,2,Eau,
+248,,Tyranitar,2,Roche,Tenèbres
+248,M,Tyranitar - Mega,2,Roche,Tenèbres
+251,,Celebi,2,Psy,Plante
+282,M,Gardevoir - Mega,3,Psy,Fee
+310,M,Manectric - Mega,3,Electrik,
+373,,Salamence,3,Dragon,Vol
+380,M,Latias - Mega,3,Dragon,Psy
+381,,Latios,3,Dragon,Psy
+381,M,Latios - Mega,3,Dragon,Psy
+385,,Jirachi,3,Acier,Psy
+428,M,Lopunny - Mega,4,Normal,Combat
+445,,Garchomp,4,Dragon,Sol
+445,M,Garchomp - Mega,4,Dragon,Sol
+461,,Weavile,4,Tenèbres,Glace
+474,,Porygon-Z,4,Normal,
+475,M,Gallade-Mega,4,Psy,Combat
+485,,Heatran,4,Feu,Acier
+492,T,Shaymin - Land Forme,4,Plante,
+497,,Serperior,5,Plante,
+530,,Excadrill,5,Sol,Acier
+545,,Scolipede,5,Insecte,Poison
+598,,Ferrothorn,5,Plante,Acier
+625,,Bisharp,5,Tenèbres,Acier
+635,,Hydreigon,5,Tenèbres,Dragon
+637,,Volcarona,5,Insecte,Feu
+639,,Terrakion,5,Roche,Combat
+641,T,Tornadus - Therian,5,Vol,
+642,,Thundurus,5,Electrik,Vol
+647,,Keldeo,5,Eau,Combat
+647,D,Keldeo - Resolute,5,Eau,Combat
+658,,Greninja,6,Eau,Tenèbres
+658,S,Ash - Greninja,6,Eau,Tenèbres
+721,,Volcanion,6,Feu,Eau
+748,,Toxapex,7,Poison,Eau
+778,,Mimikyu,7,Spectre,Fee
+785,,Tapu Koko,7,Electrik,Fee
+787,,Tapu Bulu,7,Plante,Fee
+796,,Xurkitree,7,Electrik,
+797,,Celesteela,7,Acier,Vol
+9,M,Blastoise - Mega,1,Eau,
+15,M,Beedrill - Mega,1,Insecte,Poison
+18,M,Pidgeot - Mega,1,Normal,Vol
+34,,Nidoking,1,Poison,Sol
+38,A,Ninetales - Alola,1,Glace,Fee
+65,,Alakazam,1,Psy,
+121,,Starmie,1,Eau,Psy
+130,,Gyarados,1,Eau,Vol
+132,,Ditto,1,Normal,
+142,M,Aerodactyl - Mega,1,Roche,Vol
+212,,Scizor,2,Insecte,Acier
+213,,Shuckle,2,Insecte,Roche
+214,,Heracross,2,Insecte,Combat
+227,,Skarmory,2,Acier,Vol
+229,M,Houndoom - Mega,2,Tenèbres,Feu
+230,,Kingdra,2,Eau,Dragon
+235,,Smeargle,2,Normal,
+243,,Raikou,2,Electrik,
+244,,Entei,2,Feu,
+279,,Pelipper,3,Eau,Vol
+286,,Breloom,3,Plante,Combat
+291,,Ninjask,3,Insecte,Vol
+319,M,Sharpedo - Mega,3,Eau,Tenèbres
+334,M,Altaria - Mega,3,Dragon,Fee
+342,,Crawdaunt,3,Eau,Tenèbres
+380,,Latias,3,Dragon,Psy
+448,,Lucario,4,Combat,Acier
+450,,Hippowdon,4,Sol,
+462,,Magnezone,4,Electrik,Acier
+465,,Tangrowth,4,Plante,
+468,,Togekiss,4,Fee,Vol
+472,,Gliscor,4,Sol,Vol
+473,,Mamoswine,4,Glace,Sol
+479,H,Rotom - Heat,4,Electrik,Feu
+479,W,Rotom - Wash,4,Electrik,Eau
+488,,Cresselia,4,Psy,
+534,,Conkeldurr,5,Combat,
+555,,Darmanitan,5,Feu,
+579,,Reuniclus,5,Psy,
+591,,Amoonguss,5,Plante,Poison
+612,,Haxorus,5,Dragon,
+630,,Mandibuzz,5,Tenèbres,Vol
+638,,Cobalion,5,Acier,Combat
+641,,Tornadus,5,Vol,
+642,T,Fulguris - Therian,5,Electrik,Vol
+646,,Kyurem,5,Dragon,Glace
+660,,Diggersby,6,Normal,Sol
+700,,Sylveon,6,Fee,
+701,,Hawlucha,6,Combat,Vol
+718,D,Zygarde - 10%,6,Dragon,Sol
+719,,Diancie,6,Roche,Fee
+743,,Ribombee,7,Insecte,Fee
+784,,Kommo-o,7,Dragon,Combat
+788,,Tapu Fini,7,Eau,Fee
+793,,Nihilego,7,Roche,Poison
+794,,Buzzwole,7,Insecte,Combat
+576,,Gothitelle,5,Psy,
+805,,Stakataka,7,Roche,Acier
+806,,Blacephalon,7,Feu,Spectre
+3,,Venusaur,1,Plante,Poison
+9,,Blastoise,1,Eau,
+26,A,Raichu - Alola,1,Electrik,Psy
+31,,Nidoqueen,1,Poison,Sol
+38,,Ninetales,1,Feu,
+59,,Arcanine,1,Feu,
+71,,Victreebel,1,Plante,Poison
+73,,Tentacruel,1,Eau,Poison
+80,,Slowbro,1,Eau,Psy
+82,,Magneton,1,Electrik,Acier
+89,A,Muk - Alola,1,Poison,Tenèbres
+91,,Cloyster,1,Eau,Glace
+103,A,Exeggutor - Alola,1,Plante,Dragon
+133,,Eevee,1,Normal,
+139,,Omastar,1,Roche,Eau
+141,,Kabutops,1,Roche,Eau
+143,,Snorlax,1,Normal,
+146,,Moltres,1,Feu,Vol
+160,,Feraligatr,2,Eau,
+169,,Crobat,2,Poison,Vol
+178,,Xatu,2,Psy,Vol
+181,M,Ampharos -Mega,2,Electrik,Dragon
+186,,Politoed,2,Eau,
+195,,Quagsire,2,Eau,Sol
+196,,Espeon,2,Psy,
+197,,Umbreon,2,Tenèbres,
+199,,Slowking,2,Eau,Psy
+202,,Wobbuffet,2,Psy,
+208,M,Steelix - Mega,2,Acier,Sol
+226,,Mantine,2,Eau,Vol
+233,,Porygon2,2,Normal,
+242,,Blissey,2,Normal,
+254,M,Sceptile - Mega,3,Plante,Dragon
+260,,Swampert,3,Eau,Sol
+272,,Ludicolo,3,Eau,Plante
+306,M,Aggron -Mega,3,Acier,
+319,,Sharpedo,3,Eau,Tenèbres
+323,M,Camerupt - Mega,3,Feu,Sol
+324,,Torkoal,3,Feu,
+330,,Flygon,3,Sol,Dragon
+350,,Milotic,3,Eau,
+354,M,Banette - Mega,3,Spectre,
+359,M,Absol - Mega,3,Tenèbres,
+362,M,Glalie - Mega,3,Glace,
+367,,Huntail,3,Eau,
+368,,Gorebyss,3,Eau,
+376,,Metagross,3,Acier,Psy
+392,,Infernape,4,Feu,Combat
+395,,Empoleon,4,Eau,Acier
+398,,Staraptor,4,Normal,Vol
+423,,Gastrodon,4,Eau,Sol
+430,,Honchkrow,4,Tenèbres,Vol
+454,,Toxicroak,4,Poison,Combat
+460,M,Abomasnow - Mega,4,Plante,Glace
+475,,Gallade,4,Psy,Combat
+479,M,Rotom - Mow,4,Electrik,Plante
+480,,Uxie,4,Psy,
+482,,Azelf,4,Psy,
+500,,Emboar,5,Feu,Combat
+547,,Whimsicott,5,Plante,Fee
+553,,Krookodile,5,Sol,Tenèbres
+555,T,Darmanitan - Zen Mode,5,Feu,Psy
+565,,Carracosta,5,Eau,Roche
+571,,Zoroark,5,Tenèbres,
+593,,Jellicent,5,Eau,Spectre
+594,,Alomomola,5,Eau,
+596,,Galvantula,5,Insecte,Electrik
+609,,Chandelure,5,Spectre,Feu
+620,,Mienshao,5,Combat,
+621,,Druddigon,5,Dragon,
+640,,Virizion,5,Plante,Combat
+648,C,Meloetta - Aria Form,5,Normal,Psy
+648,D,Meloetta - Pirouette Form,5,Normal,Combat
+652,,Chesnaught,6,Plante,Combat
+663,,Talonflame,6,Feu,Vol
+671,,Florges,6,Fee,
+675,,Pangoro,6,Combat,Tenèbres
+680,,Doublade,6,Acier,Spectre
+685,,Slurpuff,6,Fee,
+689,,Barbaracle,6,Roche,Eau
+691,,Dragalge,6,Poison,Dragon
+697,,Tyrantrum,6,Roche,Dragon
+707,,Klefki,6,Acier,Fee
+730,,Primarina,7,Eau,Fee
+745,D,Lycanroc - Midday Form,7,Roche,
+752,,Araquanid,7,Eau,Insecte
+760,,Bewear,7,Normal,Combat
+745,C,Lycanroc - Midnight Form,7,Roche,
+6,,Charizard,1,Feu,Vol
+20,,Raticate,1,Normal,
+20,A,Raticate - Alola,1,Tenèbres,Normal
+24,,Arbok,1,Poison,
+28,,Sandslash,1,Sol,
+28,A,Sandslash - Alola,1,Glace,Acier
+35,,Clefairy,1,Fee,
+40,,Wigglytuff,1,Normal,Fee
+42,,Golbat,1,Poison,Vol
+49,,Venomoth,1,Insecte,Poison
+50,,Diglett,1,Sol,
+51,A,Dugtrio - Alola,1,Sol,Acier
+53,A,Persian - Alola,1,Tenèbres,
+57,,Primeape,1,Combat,
+62,,Poliwrath,1,Eau,Combat
+64,,Kadabra,1,Psy,
+68,,Machamp,1,Combat,
+76,,Golem,1,Roche,Sol
+76,A,Golem - Alola,1,Roche,Electrik
+78,,Rapisadh,1,Feu,
+89,,Muk,1,Poison,
+97,,Hypno,1,Psy,
+103,,Exeggutor,1,Plante,Psy
+105,,Marowak,1,Sol,
+106,,Hitmonlee,1,Combat,
+110,,Weezing,1,Poison,
+114,,Tangela,1,Plante,
+128,,Tauros,1,Normal,
+131,,Lapras,1,Eau,Glace
+134,,Vaporeon,1,Eau,
+135,,Jolteon,1,Electrik,
+142,,Aerodactyl,1,Roche,Vol
+144,,Articuno,1,Glace,Vol
+157,,Typhlosion,2,Feu,
+171,,Lanturn,2,Eau,Electrik
+176,,Togetic,2,Fee,Vol
+205,,Foretress,2,Insecte,Acier
+207,,Gligar,2,Sol,Vol
+208,,Steelix,2,Acier,Sol
+211,,Qwilfish,2,Eau,Poison
+215,,Sneasel,2,Tenèbres,Glace
+217,,Ursaring,2,Normal,
+221,,Piloswine,2,Glace,Sol
+229,,Houndoom,2,Tenèbres,Feu
+232,,Donphan,2,Sol,
+237,,Hitmontop,2,Combat,
+241,,Miltank,2,Normal,
+254,,Sceptile,3,Plante,
+256,,Combusken,3,Feu,Combat
+264,,Linoone,3,Normal,
+275,,Shiftry,3,Plante,Tenèbres
+277,,Swellow,3,Normal,Vol
+282,,Gardevoir,3,Psy,Fee
+284,,Masquerain,3,Insecte,Vol
+289,,Slaking,3,Normal,
+295,,Exploud,3,Normal,
+297,,Hariyama,3,Combat,
+302,,Sableye,3,Tenèbres,Spectre
+306,,Aggron,3,Acier,Roche
+308,,Medicham,3,Combat,Psy
+328,,Trapinch,3,Sol,
+332,,Cacturne,3,Plante,Tenèbres
+334,,Altaria,3,Dragon,Vol
+335,,Zangoose,3,Normal,
+356,,Dusclops,3,Spectre,
+377,,Regirock,3,Roche,
+378,,Regice,3,Glace,
+379,,Registeel,3,Acier,
+407,,Roserade,4,Plante,Poison
+409,,Rampardos,4,Roche,
+419,,Floatzel,4,Eau,
+437,,Bronzong,4,Acier,Psy
+441,,Chatot,4,Normal,Vol
+452,,Drapion,4,Poison,Tenèbres
+460,,Abomasnow,4,Plante,Glace
+464,,Rhyperior,4,Sol,Roche
+466,,Electivire,4,Electrik,
+467,,Magmortar,4,Feu,
+469,,Yanmega,4,Insecte,Vol
+477,,Dusknoir,4,Spectre,
+478,,Froslass,4,Glace,Spectre
+479,F,Rotom-Frost,4,Electrik,Glace
+481,,Mesprit,4,Psy,
+486,,Regigigas,4,Normal,
+503,,Samurott,5,Eau,
+508,,Stoutland,5,Normal,
+518,,Musharna,5,Psy,
+526,,Gigalith,5,Roche,
+528,,Swoobat,5,Psy,Vol
+531,M,Audino - Mega,5,Normal,Fee
+537,,Seismitoad,5,Eau,Sol
+546,,Cottonee,5,Plante,Fee
+549,,Lilligant,5,Plante,
+558,,Crustle,5,Insecte,Roche
+560,,Scrafty,5,Tenèbres,Combat
+561,,Sigilyph,5,Psy,Vol
+563,,Cofagrigus,5,Spectre,
+567,,Archeops,5,Roche,Vol
+569,,Garbodor,5,Poison,
+573,,Cinccino,5,Normal,
+575,,Gothorita,5,Psy,
+578,,Duosion,5,Psy,
+586,,Sawsbusk,5,Normal,Plante
+589,,Escavalier,5,Insecte,Acier
+604,,Eelektross,5,Electrik,
+623,,Golurk,5,Sol,Spectre
+626,,Bouffalant,5,Normal,
+628,,Braviary,5,Normal,Vol
+632,,Durant,5,Insecte,Acier
+655,,Delphox,6,Feu,Psy
+666,,Vivillon,6,Insecte,Vol
+668,,Pyroar,6,Feu,Normal
+673,,Gogoat,6,Plante,
+687,,Malamar,6,Tenèbres,Psy
+693,,Clawitzer,6,Eau,
+695,,Heliolisk,6,Electrik,Normal
+703,,Carbink,6,Roche,Fee
+706,,Goodra,6,Dragon,
+711,,Gourgeist - Super Size,6,Spectre,Plante
+711,,Gourgeist - Large Size,6,Spectre,Plante
+713,,Avalugg,6,Glace,
+715,,Noivern,6,Vol,Dragon
+724,,Decidueye,7,Plante,Spectre
+740,,Crabominable,7,Combat,Glace
+758,,Salazzle,7,Poison,Feu
+764,,Comfey,7,Fee,
+768,,Golisopod,7,Insecte,Eau
+771,,Pyukumuku,7,Eau,
+773,,Silvally,7,Normal,
+774,,Minior - Meteor,7,Roche,Vol
+774,,Minior,7,Roche,Vol
+779,,Bruxish,7,Eau,Psy
+780,,Drampa,7,Normal,Dragon
+781,,Dhelmise,7,Spectre,Plante
+799,,Guzzlord,7,Tenèbres,Dragon
+800,,Necrozma,7,Psy,
+1,,Bulbasaur,1,Plante,Poison
+2,,Ivysaur,1,Plante,Poison
+4,,Charmander,1,Feu,
+5,,Charmeleon,1,Feu,
+7,,Squirtle,1,Eau,
+8,,Wartortle,1,Eau,
+10,,Caterpie,1,Insecte,
+11,,Metapod,1,Insecte,
+12,,Butterfree,1,Insecte,Vol
+13,,Weedle,1,Insecte,Poison
+14,,Kakuna,1,Insecte,Poison
+15,,Beedrill,1,Insecte,Poison
+16,,Pidgey,1,Normal,Vol
+17,,Pidgeotto,1,Normal,Vol
+18,,Pidgeot,1,Normal,Vol
+19,,Rattata,1,Normal,
+19,A,Rattata - Alola,1,Tenèbres,Normal
+21,,Spearow,1,Normal,Vol
+22,,Fearow,1,Normal,Vol
+23,,Ekans,1,Poison,
+25,,Pikachu,1,Electrik,
+26,,Raichu,1,Electrik,
+27,,Sandshrew,1,Sol,
+27,A,Sandshrew - Alola,1,Glace,Acier
+29,,Nidoran-F,1,Poison,
+30,,Nidorina,1,Poison,
+32,,Nidoran-M,1,Poison,
+33,,Nidorino,1,Poison,
+37,,Vulpix,1,Feu,
+37,A,Vulpix - Alola,1,Glace,
+39,,Jigglypuff,1,Normal,Fee
+41,,Zubat,1,Poison,Vol
+43,,Oddish,1,Plante,Poison
+44,,Gloom,1,Plante,Poison
+45,,Vileplume,1,Plante,Poison
+46,,Paras,1,Insecte,Plante
+47,,Parasect,1,Insecte,Plante
+48,,Venonat,1,Insecte,Poison
+50,A,Diglett - Alola,1,Sol,Acier
+52,,Meowth,1,Normal,
+52,A,Meowth - Alola,1,Tenèbres,
+53,,Persian,1,Normal,
+54,,Psyduck,1,Eau,
+55,,Golduck,1,Eau,
+56,,Mankey,1,Combat,
+58,,Growlithe,1,Feu,
+60,,Poliwag,1,Eau,
+61,,Poliwhirl,1,Eau,
+63,,Abra,1,Psy,
+66,,Machop,1,Combat,
+67,,Machoke,1,Combat,
+69,,Bellsprout,1,Plante,Poison
+70,,Weepinbell,1,Plante,Poison
+72,,Tentacool,1,Eau,Poison
+74,,Geodude,1,Roche,Sol
+74,A,Geodude - Alola,1,Roche,Electrik
+75,,Graveler,1,Roche,Sol
+75,A,Graveler - Alola,1,Roche,Electrik
+77,,Ponyta,1,Feu,
+79,,Slowpoke,1,Eau,Psy
+81,,Magnemite,1,Electrik,Acier
+83,,Farfetch'd,1,Normal,Vol
+84,,Doduo,1,Normal,Vol
+85,,Dodrio,1,Normal,Vol
+86,,Seel,1,Eau,
+87,,Dewgong,1,Eau,Glace
+88,,Grimer,1,Poison,
+88,A,Grimer - Alola,1,Poison,Tenèbres
+90,,Shellder,1,Eau,
+92,,Gastly,1,Spectre,Poison
+93,,Haunter,1,Spectre,Poison
+95,,Onix,1,Roche,Sol
+96,,Drowzee,1,Psy,
+98,,Krabby,1,Eau,
+99,,Kingler,1,Eau,
+100,,Voltorb,1,Electrik,
+101,,Electrode,1,Electrik,
+102,,Exeggcute,1,Plante,Psy
+104,,Cubone,1,Sol,
+107,,Hitmonchan,1,Combat,
+108,,Lickitung,1,Normal,
+109,,Koffing,1,Poison,
+111,,Rhyhorn,1,Sol,Roche
+112,,Rhydon,1,Sol,Roche
+115,,Kangaskhan,1,Normal,
+116,,Horsea,1,Eau,
+117,,Seadra,1,Eau,
+118,,Goldeen,1,Eau,
+119,,Seaking,1,Eau,
+120,,Staryu,1,Eau,
+122,,Mr. Mime,1,Psy,Fee
+123,,Scyther,1,Insecte,Vol
+124,,Jynx,1,Glace,Psy
+125,,Electabuzz,1,Electrik,
+126,,Magmar,1,Feu,
+127,,Pinsir,1,Insecte,
+136,,Flareon,1,Feu,
+137,,Porygon,1,Normal,
+138,,Omanyte,1,Roche,Eau
+140,,Kabuto,1,Roche,Eau
+147,,Dratini,1,Dragon,
+148,,Dragonair,1,Dragon,
+152,,Chikorita,2,Plante,
+153,,Bayleef,2,Plante,
+154,,Meganium,2,Plante,
+155,,Cyndaquil,2,Feu,
+156,,Quilava,2,Feu,
+158,,Totodile,2,Eau,
+159,,Croconaw,2,Eau,
+161,,Sentret,2,Normal,
+162,,Furret,2,Normal,
+163,,Hoothoot,2,Normal,Vol
+164,,Noctowl,2,Normal,Vol
+165,,Ledyba,2,Insecte,Vol
+166,,Ledian,2,Insecte,Vol
+167,,Spinarak,2,Insecte,Poison
+168,,Ariados,2,Insecte,Poison
+170,,Chinchou,2,Eau,Electrik
+172,,Pichu,2,Electrik,
+173,,Cleffa,2,Fee,
+174,,Iggybuff,2,Normal,Fee
+175,,Togepi,2,Fee,
+177,,Natu,2,Psy,Vol
+179,,Mareep,2,Electrik,
+180,,Flaafy,2,Electrik,
+181,,Ampharos,2,Electrik,
+182,,Bellossom,2,Plante,
+183,,Marill,2,Eau,Fee
+185,,Sudowoodo,2,Roche,
+187,,Hoppip,2,Plante,Vol
+188,,Skiploom,2,Plante,Vol
+189,,Jumpluff,2,Plante,Vol
+190,,Aipom,2,Normal,
+191,,Sunkern,2,Plante,
+192,,Sunflora,2,Plante,
+193,,Yanma,2,Insecte,Vol
+194,,Wooper,2,Eau,Sol
+198,,Murkrow,2,Tenèbres,Vol
+200,,Misdreavus,2,Spectre,
+201,,Unown,2,Psy,
+203,,Girafarig,2,Normal,Psy
+204,,Pineco,2,Insecte,
+206,,Dunsparce,2,Normal,
+209,,Snubbull,2,Fee,
+210,,Granbull,2,Fee,
+216,,Teddiursa,2,Normal,
+218,,Slugma,2,Feu,
+219,,Magcargo,2,Feu,Roche
+220,,Swinub,2,Glace,Sol
+222,,Corsola,2,Eau,Roche
+223,,Remoraid,2,Eau,
+224,,Octillery,2,Eau,
+225,,Delibird,2,Glace,Vol
+228,,Houndour,2,Tenèbres,Feu
+231,,Phanpy,2,Sol,
+234,,Stantler,2,Normal,
+236,,Tyrogue,2,Combat,
+238,,Smoochum,2,Glace,Psy
+239,,Elekid,2,Electrik,
+240,,Magby,2,Feu,
+246,,Larvitar,2,Roche,Sol
+247,,Pupitar,2,Roche,Sol
+252,,Treecko,3,Plante,
+253,,Grovyle,3,Plante,
+255,,Torchic,3,Feu,
+258,,Mudkip,3,Eau,
+259,,Marshtomp,3,Eau,Sol
+261,,Poochyena,3,Tenèbres,
+262,,Mightyena,3,Tenèbres,
+263,,Zigzagoon,3,Normal,
+265,,Wurmple,3,Insecte,
+266,,Silcoon,3,Insecte,
+267,,Beautifly,3,Insecte,Vol
+268,,Cascoon,3,Insecte,
+269,,Dustox,3,Insecte,Poison
+270,,Lotad,3,Eau,Plante
+271,,Lombre,3,Eau,Plante
+273,,Seedot,3,Plante,
+274,,Nuzleaf,3,Plante,Tenèbres
+276,,Taillow,3,Normal,Vol
+278,,Wingull,3,Eau,Vol
+280,,Ralts,3,Psy,Fee
+281,,Kirlia,3,Psy,Fee
+283,,Surskit,3,Insecte,Eau
+285,,Shroomish,3,Plante,
+287,,Slakoth,3,Normal,
+288,,Vigoroth,3,Normal,
+290,,Nincada,3,Insecte,Sol
+292,,Shedinja,3,Insecte,Spectre
+293,,Whismur,3,Normal,
+294,,Loudred,3,Normal,
+296,,Makuhita,3,Combat,
+298,,Azurill,3,Normal,Fee
+299,,Nosepass,3,Roche,
+300,,Skitty,3,Normal,
+301,,Delcatty,3,Normal,
+303,,Mawile,3,Acier,Fee
+304,,Aron,3,Acier,Roche
+305,,Lairon,3,Acier,Roche
+307,,Meditite,3,Combat,Psy
+309,,Electrike,3,Electrik,
+310,,Manetric,3,Electrik,
+311,,Plusle,3,Electrik,
+312,,Minun,3,Electrik,
+313,,Volbeat,3,Insecte,
+314,,Illumise,3,Insecte,
+315,,Roselia,3,Plante,Poison
+316,,Gulpin,3,Poison,
+317,,Swalot,3,Poison,
+318,,Carvanha,3,Eau,Tenèbres
+320,,Wailmer,3,Eau,
+321,,Wailord,3,Eau,
+322,,Numel,3,Feu,Sol
+323,,Camerupt,3,Feu,Sol
+325,,Spoink,3,Psy,
+326,,Grumpig,3,Psy,
+327,,Spinda,3,Normal,
+329,,Vibrava,3,Sol,Dragon
+331,,Cacnea,3,Plante,
+333,,Swablu,3,Normal,Vol
+336,,Seviper,3,Poison,
+337,,Lunatone,3,Roche,Psy
+338,,Solrock,3,Roche,Psy
+339,,Barboach,3,Eau,Sol
+340,,Whiscash,3,Eau,Sol
+341,,Corphish,3,Eau,
+343,,Baltoy,3,Sol,Psy
+344,,Claydol,3,Sol,Psy
+345,,Lileep,3,Roche,Plante
+346,,Cradily,3,Roche,Plante
+347,,Anorith,3,Roche,Insecte
+348,,Armaldo,3,Roche,Insecte
+349,,Feebas,3,Eau,
+351,,Castform,3,Normal,
+351,S,Castform-Sunny,3,Feu,
+351,P,Castform-Rainy,3,Eau,
+351,N,Castform-Snowy,3,Glace,
+352,,Kecleon,3,Normal,
+353,,Shuppet,3,Spectre,
+354,,Banette,3,Spectre,
+355,,Duskull,3,Spectre,
+357,,Tropius,3,Plante,Vol
+358,,Chimecho,3,Psy,
+359,,Absol,3,Tenèbres,
+360,,Wynaut,3,Psy,
+361,,Snorunt,3,Glace,
+362,,Glalie,3,Glace,
+363,,Spheal,3,Glace,Eau
+364,,Sealeo,3,Glace,Eau
+365,,Walrein,3,Glace,Eau
+366,,Clamperl,3,Eau,
+369,,Relicanth,3,Eau,Roche
+370,,Luvdisc,3,Eau,
+371,,Bagon,3,Dragon,
+372,,Shelgon,3,Dragon,
+374,,Beldum,3,Acier,Psy
+375,,Metang,3,Acier,Psy
+387,,Turtwig,4,Plante,
+388,,Grotle,4,Plante,
+389,,Torterra,4,Plante,Sol
+390,,Chimchar,4,Feu,
+391,,Monferno,4,Feu,Combat
+393,,Piplup,4,Eau,
+394,,Prinplup,4,Eau,
+396,,Starly,4,Normal,Vol
+397,,Staravia,4,Normal,Vol
+399,,Bidoof,4,Normal,
+400,,Bibarel,4,Normal,Eau
+401,,Kricketot,4,Insecte,
+402,,Kricketune,4,Insecte,
+403,,Shinx,4,Electrik,
+404,,Luxio,4,Electrik,
+405,,Luxray,4,Electrik,
+406,,Budew,4,Plante,Poison
+408,,Cranidos,4,Roche,
+410,,Shieldon,4,Roche,Acier
+411,,Bastiodon,4,Roche,Acier
+412,,Burmy,4,Insecte,
+413,P,Wormadam,4,Insecte,Plante
+413,S,Wormadam-Sandy,4,Insecte,Sol
+413,D,Wormadam-Trash,4,Insecte,Acier
+414,,Mothim,4,Insecte,Vol
+415,,Combee,4,Insecte,Vol
+416,,Vespiquen,4,Insecte,Vol
+417,,Pachirisu,4,Electrik,
+418,,Buizel,4,Eau,
+420,,Cherubi,4,Plante,
+421,,Cherrim,4,Plante,
+422,,Shellos,4,Eau,
+424,,Ambipom,4,Normal,
+425,,Drifloon,4,Spectre,Vol
+426,,Drifblim,4,Spectre,Vol
+427,,Buneary,4,Normal,
+428,,Lopunny,4,Normal,
+429,,Mismagius,4,Spectre,
+431,,Glameow,4,Normal,
+432,,Purugly,4,Normal,
+433,,Chingling,4,Psy,
+434,,Stunky,4,Poison,Tenèbres
+435,,Skuntank,4,Poison,Tenèbres
+436,,Bronzor,4,Acier,Psy
+438,,Bonsly,4,Roche,
+439,,Mime Jr.,4,Psy,Fee
+440,,Happiny,4,Normal,
+442,,Spiritomb,4,Spectre,Tenèbres
+443,,Gible,4,Dragon,Sol
+444,,Gabite,4,Dragon,Sol
+446,,Munchlax,4,Normal,
+447,,Riolu,4,Combat,
+449,,Hippopotas,4,Sol,
+451,,Skorupi,4,Poison,Insecte
+453,,Croagunk,4,Poison,Combat
+455,,Carnivine,4,Plante,
+456,,Finneon,4,Eau,
+457,,Lumineon,4,Eau,
+458,,Mantyke,4,Eau,Vol
+459,,Snover,4,Plante,Glace
+463,,Lickilicky,4,Normal,
+470,,Leafeon,4,Plante,
+471,,Glaceon,4,Glace,
+476,,Probopass,4,Roche,Acier
+479,,Rotom,4,Electrik,Spectre
+479,E,Rotom-Fan,4,Electrik,Vol
+489,,Phione,4,Eau,
+495,,Snivy,5,Plante,
+496,,Servine,5,Plante,
+498,,Tepig,5,Feu,
+499,,Pignite,5,Feu,Combat
+501,,Oshawott,5,Eau,
+502,,Dewott,5,Eau,
+504,,Patrat,5,Normal,
+505,,Watchog,5,Normal,
+506,,Lillipup,5,Normal,
+507,,Herdier,5,Normal,
+509,,Purrloin,5,Tenèbres,
+510,,Liepard,5,Tenèbres,
+511,,Pansage,5,Plante,
+512,,Simisage,5,Plante,
+513,,Pansear,5,Feu,
+514,,Simisear,5,Feu,
+515,,Panpour,5,Eau,
+516,,Simipour,5,Eau,
+517,,Munna,5,Psy,
+519,,Pidove,5,Normal,Vol
+520,,Tranquill,5,Normal,Vol
+521,,Unfezant,5,Normal,Vol
+522,,Blitzle,5,Electrik,
+523,,Zebstrika,5,Electrik,
+524,,Roggenrola,5,Roche,
+525,,Boldore,5,Roche,
+527,,Woobat,5,Psy,Vol
+529,,Drillbur,5,Sol,
+531,,Audino,5,Normal,
+532,,Timburr,5,Combat,
+533,,Gurdurr,5,Combat,
+535,,Tympole,5,Eau,
+536,,Palpitoad,5,Eau,Sol
+538,,Throh,5,Combat,
+539,,Sawk,5,Combat,
+540,,Sewaddle,5,Insecte,Plante
+541,,Swadloon,5,Insecte,Plante
+542,,Leavanny,5,Insecte,Plante
+543,,Venipede,5,Insecte,Poison
+544,,Whirlipede,5,Insecte,Poison
+548,,Petilil,5,Plante,
+550,,Basculin,5,Eau,
+550,,Basculin-Blue-Striped,5,Eau,
+551,,Sandile,5,Sol,Tenèbres
+552,,Krokorok,5,Sol,Tenèbres
+554,,Darumaka,5,Feu,
+556,,Maractus,5,Plante,
+557,,Dwebble,5,Insecte,Roche
+559,,Scraggy,5,Tenèbres,Combat
+562,,Yamask,5,Spectre,
+564,,Tirtouga,5,Eau,Roche
+566,,Archen,5,Roche,Vol
+568,,Trubbish,5,Poison,
+570,,Zorua,5,Tenèbres,
+572,,Minccino,5,Normal,
+574,,Gothita,5,Psy,
+577,,Solosis,5,Psy,
+580,,Ducklett,5,Eau,Vol
+581,,Swanna,5,Eau,Vol
+582,,Vanillite,5,Glace,
+583,,Vanillish,5,Glace,
+584,,Vanilluxe,5,Glace,
+585,,Deerling,5,Normal,Plante
+587,,Emolga,5,Electrik,Vol
+588,,Karrablast,5,Insecte,
+590,,Foongus,5,Plante,Poison
+592,,Frillish,5,Eau,Spectre
+595,,Joltik,5,Insecte,Electrik
+597,,Ferroseed,5,Plante,Acier
+599,,Klink,5,Acier,
+600,,Klang,5,Acier,
+601,,Klinkklang,5,Acier,
+602,,Tynamo,5,Electrik,
+603,,Eelektrik,5,Electrik,
+605,,Elgyem,5,Psy,
+606,,Beheeyem,5,Psy,
+607,,Litwick,5,Spectre,Feu
+608,,Lampent,5,Spectre,Feu
+610,,Axew,5,Dragon,
+611,,Fraxure,5,Dragon,
+613,,Cubchoo,5,Glace,
+614,,Beartic,5,Glace,
+615,,Cryogonal,5,Glace,
+616,,Shelmet,5,Insecte,
+617,,Accelgor,5,Insecte,
+618,,Stunfisk,5,Sol,Electrik
+619,,Mienfoo,5,Combat,
+622,,Golett,5,Sol,Spectre
+624,,Pawniard,5,Tenèbres,Acier
+627,,Rufflet,5,Normal,Vol
+629,,Vullaby,5,Tenèbres,Vol
+631,,Heatmor,5,Feu,
+633,,Deino,5,Tenèbres,Dragon
+634,,Zweilous,5,Tenèbres,Dragon
+636,,Larvesta,5,Insecte,Feu
+650,,Chespin,6,Plante,
+651,,Quilladin,6,Plante,
+653,,Fennekin,6,Feu,
+654,,Braixen,6,Feu,
+656,,Froakie,6,Eau,
+657,,Frogadier,6,Eau,
+659,,Bunnelby,6,Normal,
+661,,Fletchling,6,Normal,Vol
+662,,Fletchinder,6,Feu,Vol
+664,,Scatterbug,6,Insecte,
+665,,Spewpa,6,Insecte,
+667,,Litleo,6,Feu,Normal
+669,,Flabebe,6,Fee,
+670,,Floette,6,Fee,
+672,,Skiddo,6,Plante,
+674,,Pancham,6,Combat,
+676,,Furfrou,6,Normal,
+677,,Espurr,6,Psy,
+678,,Meowstic,6,Psy,
+678,,Meowstic-F,6,Psy,
+679,,Honedge,6,Acier,Spectre
+682,,Spritzee,6,Fee,
+683,,Aromatisse,6,Fee,
+684,,Swirlix,6,Fee,
+686,,Inkay,6,Tenèbres,Psy
+688,,Binacle,6,Roche,Eau
+690,,Skrelp,6,Poison,Eau
+692,,Clauncher,6,Eau,
+694,,Helioptile,6,Electrik,Normal
+696,,Tyrunt,6,Roche,Dragon
+698,,Amaura,6,Roche,Glace
+699,,Aurorus,6,Roche,Glace
+702,,Dedenne,6,Electrik,Fee
+704,,Goomy,6,Dragon,
+705,,Sliggoo,6,Dragon,
+708,,Phantump,6,Spectre,Plante
+709,,Trevenant,6,Spectre,Plante
+710,,Pumpkaboo,6,Spectre,Plante
+710,,Pumpkaboo-Small,6,Spectre,Plante
+710,,Pumpkaboo-Large,6,Spectre,Plante
+710,,Pumpkaboo-Super,6,Spectre,Plante
+711,,Gourgeist,6,Spectre,Plante
+711,,Gourgeist-Small,6,Spectre,Plante
+712,,Bergmite,6,Glace,
+714,,Noibat,6,Vol,Dragon
+722,,Rowlet,7,Plante,Vol
+723,,Dartrix,7,Plante,Vol
+725,,Litten,7,Feu,
+726,,Torracat,7,Feu,
+727,,Incineroar,7,Feu,Tenèbres
+728,,Popplio,7,Eau,
+729,,Brionne,7,Eau,
+731,,Pikipek,7,Normal,Vol
+732,,Trumbeak,7,Normal,Vol
+733,,Toucannon,7,Normal,Vol
+734,,Yungoos,7,Normal,
+735,,Gumshoos,7,Normal,
+736,,Grubbin,7,Insecte,
+737,,Charjabug,7,Insecte,Electrik
+738,,Vikavolt,7,Insecte,Electrik
+739,,Crabrawler,7,Combat,
+741,F,Oricorio,7,Feu,Vol
+741,P,Oricorio-Pom-Pom,7,Electrik,Vol
+741,H,Oricorio-Pa'u,7,Psy,Vol
+741,B,Oricorio-Sensu,7,Spectre,Vol
+742,,Cutiefly,7,Insecte,Fee
+744,,Rockruff,7,Roche,
+745,N,Lycanroc-Midnight,7,Roche,
+746,,Wishiwashi,7,Eau,
+746,B,Wishiwashi-School,7,Eau,
+747,,Mareanie,7,Poison,Eau
+749,,Mudbray,7,Sol,
+750,,Mudsdale,7,Sol,
+751,,Dewpider,7,Eau,Insecte
+753,,Fomantis,7,Plante,
+754,,Lurantis,7,Plante,
+755,,Morelull,7,Plante,Fee
+756,,Shiinotic,7,Plante,Fee
+757,,Salandit,7,Poison,Feu
+759,,Stufful,7,Normal,Combat
+761,,Bounsweet,7,Plante,
+762,,Steenee,7,Plante,
+763,,Tsareena,7,Plante,
+765,,Oranguru,7,Normal,Psy
+766,,Passimian,7,Combat,
+767,,Wimpod,7,Insecte,Eau
+769,,Sandygast,7,Spectre,Sol
+770,,Palossand,7,Spectre,Sol
+772,,Type: Null,7,Normal,
+775,,Komala,7,Normal,
+776,,Turtonator,7,Feu,Dragon
+777,,Togedemaru,7,Electrik,Acier
+782,,Jangmo-o,7,Dragon,
+783,,Hakamo-o,7,Dragon,Combat
+789,,Cosmog,7,Psy,
+790,,Cosmoem,7,Psy,
+803,,Poipole,7,Poison,
+94,M,Gengar - Mega,1,Spectre,Poison
+150,,Mewtwo,1,Psy,
+150,MX,Mewtwo-Mega-X,1,Psy,Combat
+150,MY,Mewtwo-Mega-Y,1,Psy,
+249,,Lugia,2,Psy,Vol
+250,,Ho-Oh,2,Feu,Vol
+257,,Blaziken,3,Feu,Combat
+257,M,Blaziken - Mega,3,Feu,Combat
+373,M,Salamence - Mega,3,Dragon,Vol
+382,,Kyogre,3,Eau,
+382,P,Kyogre-Primal,3,Eau,
+383,,Groudon,3,Sol,
+383,P,Groudon-Primal,3,Sol,Feu
+384,,Rayquaza,3,Dragon,Vol
+384,M,Rayquaza - Mega-evolution,3,Dragon,Vol
+386,,Deoxys,3,Psy,
+386,A,Deoxys-Attack,3,Psy,
+386,D,Deoxys-Defense,3,Psy,
+386,V,Deoxys-Speed,3,Psy,
+448,M,Lucario - Mega,4,Combat,Acier
+483,,Dialga,4,Acier,Dragon
+484,,Palkia,4,Eau,Dragon
+487,A,Giratina,4,Spectre,Dragon
+487,O,Giratina-Origin,4,Spectre,Dragon
+492,C,Shaymin - Sky Forme,4,Plante,Vol
+493,,Arceus,4,Normal,
+643,,Reshiram,5,Dragon,Feu
+644,,Zekrom,5,Dragon,Electrik
+646,,Kyurem-White,5,Dragon,Glace
+716,,Xerneas,6,Fee,
+717,,Yveltal,6,Tenèbres,Vol
+718,P,Zygarde-Complete,6,Dragon,Sol
+791,,Solgaleo,7,Psy,Acier
+792,,Lunala,7,Psy,Spectre
+800,U,Ultra Necrozma,7,Psy,Dragon
+800,A,Necrozma-Dawn-Wings,7,Psy,Spectre
+800,C,Necrozma-Dusk-Mane,7,Psy,Acier
+802,,Marshadow,7,Combat,Spectre
+804,,Naganadel,7,Dragon,Poison

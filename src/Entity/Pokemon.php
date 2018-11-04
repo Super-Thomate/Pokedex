@@ -37,6 +37,16 @@ class Pokemon
      */
     private $pokeSprites;
 
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $generation;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $form;
+
     public function __construct()
     {
         $this->pokeSprites = new ArrayCollection();
@@ -110,6 +120,30 @@ class Pokemon
                 $pokeSprite->setPokeId(null);
             }
         }
+
+        return $this;
+    }
+
+    public function getGeneration(): ?int
+    {
+        return $this->generation;
+    }
+
+    public function setGeneration(int $generation): self
+    {
+        $this->generation = $generation;
+
+        return $this;
+    }
+
+    public function getForm(): ?string
+    {
+        return $this->form;
+    }
+
+    public function setForm(?string $form): self
+    {
+        $this->form = $form;
 
         return $this;
     }
