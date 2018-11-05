@@ -14,16 +14,16 @@
     <hr>
     <div class="d-types">
     {%for type in types1%}
-      <span class="pointer types unselected" id="{{type}}" data-status="unselected">
-        <img src="{{asset("img/types/#{type}.png")}}" alt="">
-      </span>
+      <div class="pointer types unselected" id="{{type}}">
+        {{type|capitalize}}
+      </div>
     {%endfor%}
     </div>
-    <div class="d-types">
+    <div class="d-types mt-2">
     {%for type in types2%}
-      <span class="pointer types unselected" id="{{type}}" data-status="unselected">
-        <img src="{{asset("img/types/#{type}.png")}}" alt="">
-      </span>
+      <div class="pointer types unselected" id="{{type}}">
+        {{type|capitalize}}
+      </div>
     {%endfor%}
     </div>
     <div class="d-types col-4 mx-auto mt-2">
@@ -65,6 +65,7 @@
   <!-- HANDLER -->
   <input type="hidden" name="handler" value="search">
 </form>
+
 {%endblock%}
 {% block javascripts %}
     <script src="/script/search.js"></script>

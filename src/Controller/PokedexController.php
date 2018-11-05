@@ -45,27 +45,27 @@ class PokedexController extends AbstractController {
       //
     }
     $typeArray1              =
-              array (   0 => "acier"
-                      , 1 => "combat"
+              array (   0 => "bug"
+                      , 1 => "dark"
                       , 2 => "dragon"
-                      , 3 => "eau"
-                      , 4 => "electrik"
-                      , 5 => "fee"
-                      , 6 => "feu"
-                      , 7 => "glace"
-                      , 8 => "insecte"
+                      , 3 => "electric"
+                      , 4 => "fairy"
+                      , 5 => "fighting"
+                      , 6 => "fire"
+                      , 7 => "flying"
+                      , 8 => "ghost"
                     ) ;
     $typeArray2              =
              array (
-                        0 => "normal"
-                      , 1 => "plante"
-                      , 2 => "poison"
-                      , 3 => "psy"
-                      , 4 => "roche"
-                      , 5 => "sol"
-                      , 6 => "spectre"
-                      , 7 => "tenebres"
-                      , 8 => "vol"
+                        0 => "grass"
+                      , 1 => "ground"
+                      , 2 => "ice"
+                      , 3 => "normal"
+                      , 4 => "poison"
+                      , 5 => "psychic"
+                      , 6 => "rock"
+                      , 7 => "steel"
+                      , 8 => "water"
                     ) ;
     $params                  =
               array (   "types1" => $typeArray1
