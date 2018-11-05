@@ -3,12 +3,17 @@
     <link rel="stylesheet" href="{{ asset('css/search.css') }}">
 {%endblock%}
 {%block main%}
-<form class="col-md-6 mx-auto mt-2" method="post">
+<form class="col-md-8 mx-auto mt-2" method="post">
   <div class="form-group input-group">
     <div class="input-group-prepend">
       <label class="input-group-text">Name</label>
     </div>
-    <input class="form-control" type="text" name="name" placeholder="Pokename">
+    <input class="form-control" type="text" name="name" id="name" placeholder="Pokename">
+  </div>
+  <div class="text-center">
+    <small id="help_name" class="form-text text-muted">
+      Search for pokemon with any name.
+    </small>
   </div>
   <div class="text-center">
     <hr>
@@ -61,7 +66,7 @@
   <!-- CONDITIONS -->
   <input type="hidden" name="hi_types"       id="hi_types"      >
   <input type="hidden" name="hi_generations" id="hi_generations">
-  <input type="hidden" name="hi_operation"   id="hi_operation"  >
+  <input type="hidden" name="hi_operations"  id="hi_operations" >
   <!-- HANDLER -->
   <input type="hidden" name="handler" value="search">
 </form>
