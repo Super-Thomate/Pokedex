@@ -14,31 +14,42 @@
     <hr>
     <div class="d-types">
     {%for type in types1%}
-      <span class="pointer types" id="{{type}}" data-status="unselected">
-        <img src="{{asset("img/types/#{type}_unselected.png")}}" alt="">
+      <span class="pointer types unselected" id="{{type}}" data-status="unselected">
+        <img src="{{asset("img/types/#{type}.png")}}" alt="">
       </span>
     {%endfor%}
     </div>
     <div class="d-types">
     {%for type in types2%}
-      <span class="pointer types" id="{{type}}" data-status="unselected">
-        <img src="{{asset("img/types/#{type}_unselected.png")}}" alt="">
+      <span class="pointer types unselected" id="{{type}}" data-status="unselected">
+        <img src="{{asset("img/types/#{type}.png")}}" alt="">
       </span>
     {%endfor%}
     </div>
+    <div class="d-types col-4 mx-auto mt-2">
+      <div class="badge badge-secondary pointer operator" id="mono">
+        MONO
+      </div>
+      <div class="badge badge-secondary pointer operator" id="and">
+        AND
+      </div>
+      <div class="badge badge-secondary pointer operator" id="or">
+        OR
+      </div>
+    </div>
+    <small id="help_types" class="form-text text-muted">
+     Search for pokemon with any type.
+    </small>
     <hr>
     <div class="d-types">
     {%for gen in 1..7 %}
-      <div class="badge badge-secondary pointer generation">
+      <div class="badge badge-secondary pointer generation" id="{{gen}}">
         Gen. {{gen}}
       </div>
     {%endfor%}
-      {#}<div class="badge badge-warning pointer" id="all_gen">
-        All
-      </div>#}
     </div>
-    <small id="" class="form-text text-muted">
-      Search in all generations if none are selected.
+    <small id="help_generations" class="form-text text-muted">
+      Search for pokemon in any generation.
     </small>
     <hr>
     <div class="mt-2">
@@ -47,11 +58,14 @@
       </button>
     </div>
   </div>
-  <input type="hidden" name="hi_types" id="hi_types">
+  <!-- CONDITIONS -->
+  <input type="hidden" name="hi_types"       id="hi_types"      >
   <input type="hidden" name="hi_generations" id="hi_generations">
+  <input type="hidden" name="hi_operation"   id="hi_operation"  >
+  <!-- HANDLER -->
   <input type="hidden" name="handler" value="search">
 </form>
 {%endblock%}
 {% block javascripts %}
-    <script type="text/javascript" src="{{asset('javascript/search.js')}}"></script>
+    <script src="/script/search.js"></script>
 {% endblock %}

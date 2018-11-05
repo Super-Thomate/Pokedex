@@ -1,6 +1,9 @@
 .pointer {
   cursor: pointer;
 }
+.unselected {
+  filter:  brightness(60%);
+}
 .d-types {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -8,6 +11,16 @@
   -webkit-box-pack: justify !important;
   -ms-flex-pack: justify !important;
   justify-content: space-between !important;
+}
+.d-types-center {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-pack: distribute !important;
+  justify-content: space-around !important;
+}
+.operator {
+  width: 30% ;
 }
   .generation
 , #all_gen {
@@ -22,4 +35,14 @@
   color:#fff;
   text-decoration:none;
   background-color:#0062cc;
+}
+.badge-disabled {
+  color:#dedede;
+  background-color:#bd2130;
+}
+  .badge-disabled[href]:focus
+, .badge-disabled[href]:hover {
+  color:#dedede;
+  text-decoration:none;
+  background-color:#bd2130;
 }
