@@ -5,47 +5,47 @@ id,form,nameFr,generation,type1,type2
 115,M,Kangourex - Méga-Évolution,1,Normal,
 129,,Magicarpe,1,Eau,
 260,M,Laggron - Méga-Évolution,3,Eau,Sol
-302,M,Ténéfix - Méga-Évolution,3,Ténèbres,Spectre
-303,M,Mysdibule - Méga-Évolution,3,Acier,Fée
+302,M,Ténéfix - Méga-Évolution,3,Tenebres,Spectre
+303,M,Mysdibule - Méga-Évolution,3,Acier,Fee
 308,M,Charmina - Méga-Évolution,3,Combat,Psy
 376,M,Métalosse - Méga-Évolution,3,Acier,Psy
 490,,Manaphy,4,Eau,
-491,,Darkrai,4,Ténèbres,
-494,,Victini,4,Psy,Feu
+491,,Darkrai,4,Tenebres,
+494,,Victini,5,Psy,Feu
 645,,Démétéros - Forme Avatar,5,Sol,Vol
 645,T,Démétéros - Forme Totémique,5,Sol,Vol
-646,N,Kyurem - Noir,5,Dragon,Glace
+646,B,Kyurem - Noir,5,Dragon,Glace
 649,,Genesect,5,Insecte,Acier
 681,P,Exagide - Forme Parade,6,Acier,Spectre
 681,A,Exagide - Forme Assaut,6,Acier,Spectre
 718,C,Zygarde,6,Dragon,Sol
-719,M,Diancie - Méga-Évolution,6,Roche,Fée
+719,M,Diancie - Méga-Évolution,6,Roche,Fee
 720,E,Hoopa - Forme Enchaînée,6,Psy,Spectre
-720,D,Hoopa - Forme Déchaînée,6,Psy,Ténèbres
-786,,Tokopiyon,7,Psy,Fée
+720,D,Hoopa - Forme Déchaînée,6,Psy,Tenebres
+786,,Tokopiyon,7,Psy,Fee
 795,,Cancrelove,7,Insecte,Combat
 798,,Katagami,7,Plante,Acier
-801,,Magearna,7,Acier,Fée
+801,,Magearna,7,Acier,Fee
 3,M,Florizarre - Méga-Évolution,1,Plante,Poison
-36,,Mélodelfe,1,Fée,
+36,,Mélodelfe,1,Fee,
 51,,Triopikeur,1,Sol,
 65,M,Alakazam - Méga-Évolution,1,Psy,
 80,M,Flagadoss - Méga-Évolution,1,Eau,Psy
 94,,Ectoplasma,1,Spectre,Poison
 105,A,Ossatueur d'Alola,1,Feu,Spectre
 127,M,Scarabrute - Méga-Évolution,1,Insecte,Vol
-130,M,Léviator - Méga-Évolution,1,Eau,Ténèbres
+130,M,Léviator - Méga-Évolution,1,Eau,Tenebres
 145,,Électhor,1,Electrik,Vol
 149,,Dracolosse,1,Dragon,Vol
 151,,Mew,1,Psy,
-184,,Azumarill,2,Eau,Fée
+184,,Azumarill,2,Eau,Fee
 212,M,Cizayox - Méga-Évolution,2,Insecte,Acier
 214,M,Scarhino - Méga-Évolution,2,Insecte,Combat
 245,,Suicune,2,Eau,
-248,,Tyranocif,2,Roche,Ténèbres
-248,M,Tyranocif - Méga-Évolution,2,Roche,Ténèbres
+248,,Tyranocif,2,Roche,Tenebres
+248,M,Tyranocif - Méga-Évolution,2,Roche,Tenebres
 251,,Celebi,2,Psy,Plante
-282,M,Gardevoir - Méga-Évolution,3,Psy,Fée
+282,M,Gardevoir - Méga-Évolution,3,Psy,Fee
 310,M,Élecsprint - Méga-Évolution,3,Electrik,
 373,,Drattak,3,Dragon,Vol
 380,M,Latias - Méga-Évolution,3,Dragon,Psy
@@ -55,7 +55,7 @@ id,form,nameFr,generation,type1,type2
 428,M,Lockpin - Méga-Évolution,4,Normal,Combat
 445,,Carchacrok,4,Dragon,Sol
 445,M,Carchacrok - Méga-Évolution,4,Dragon,Sol
-461,,Dimoret,4,Ténèbres,Glace
+461,,Dimoret,4,Tenebres,Glace
 474,,Porygon-Z,4,Normal,
 475,M,Gallame - Méga-Évolution,4,Psy,Combat
 485,,Heatran,4,Feu,Acier
@@ -64,28 +64,28 @@ id,form,nameFr,generation,type1,type2
 530,,Minotaupe,5,Sol,Acier
 545,,Brutapode,5,Insecte,Poison
 598,,Noacier,5,Plante,Acier
-625,,Scalproie,5,Ténèbres,Acier
-635,,Trioxhydre,5,Ténèbres,Dragon
+625,,Scalproie,5,Tenebres,Acier
+635,,Trioxhydre,5,Tenebres,Dragon
 637,,Pyrax,5,Insecte,Feu
 639,,Terrakium,5,Roche,Combat
 641,T,Boréas - Forme Totémique,5,Vol,
 642,,Fulguris - Forme Avatar,5,Electrik,Vol
 647,,Keldeo - Aspect Normal,5,Eau,Combat
 647,D,Keldeo - Aspect Décidé,5,Eau,Combat
-658,,Amphinobi,6,Eau,Ténèbres
-658,S,Amphinobi - Sachanobi,6,Eau,Ténèbres
+658,,Amphinobi,6,Eau,Tenebres
+658,S,Amphinobi - Sachanobi,6,Eau,Tenebres
 721,,Volcanion,6,Feu,Eau
 748,,Prédastérie,7,Poison,Eau
-778,,Mimiqui,7,Spectre,Fée
-785,,Tokorico,7,Electrik,Fée
-787,,Tokotoro,7,Plante,Fée
+778,,Mimiqui,7,Spectre,Fee
+785,,Tokorico,7,Electrik,Fee
+787,,Tokotoro,7,Plante,Fee
 796,,Câblifère,7,Electrik,
 797,,Bamboiselle,7,Acier,Vol
 9,M,Tortank - Méga-Évolution,1,Eau,
 15,M,Dardargnan - Méga-Évolution,1,Insecte,Poison
 18,M,Roucarnage - Méga-Évolution,1,Normal,Vol
 34,,Nidoking,1,Poison,Sol
-38,A,Feunard d'Alola,1,Glace,Fée
+38,A,Feunard d'Alola,1,Glace,Fee
 65,,Alakazam,1,Psy,
 121,,Staross,1,Eau,Psy
 130,,Léviator,1,Eau,Vol
@@ -95,7 +95,7 @@ id,form,nameFr,generation,type1,type2
 213,,Caratroc,2,Insecte,Roche
 214,,Scarhino,2,Insecte,Combat
 227,,Airmure,2,Acier,Vol
-229,M,Démolosse - Méga-Évolution,2,Ténèbres,Feu
+229,M,Démolosse - Méga-Évolution,2,Tenebres,Feu
 230,,Hyporoi,2,Eau,Dragon
 235,,Queulorior,2,Normal,
 243,,Raikou,2,Electrik,
@@ -103,15 +103,15 @@ id,form,nameFr,generation,type1,type2
 279,,Bekipan,3,Eau,Vol
 286,,Chapignon,3,Plante,Combat
 291,,Ninjask,3,Insecte,Vol
-319,M,Sharpedo - Méga-Évolution,3,Eau,Ténèbres
-334,M,Altaria - Méga-Évolution,3,Dragon,Fée
-342,,Colhomard,3,Eau,Ténèbres
+319,M,Sharpedo - Méga-Évolution,3,Eau,Tenebres
+334,M,Altaria - Méga-Évolution,3,Dragon,Fee
+342,,Colhomard,3,Eau,Tenebres
 380,,Latias,3,Dragon,Psy
 448,,Lucario,4,Combat,Acier
 450,,Hippodocus,4,Sol,
 462,,Magnézone,4,Electrik,Acier
 465,,Bouldeneu,4,Plante,
-468,,Togekiss,4,Fée,Vol
+468,,Togekiss,4,Fee,Vol
 472,,Scorvol,4,Sol,Vol
 473,,Mammochon,4,Glace,Sol
 479,H,Motisma - Four,4,Electrik,Feu
@@ -122,19 +122,19 @@ id,form,nameFr,generation,type1,type2
 579,,Symbios,5,Psy,
 591,,Gaulet,5,Plante,Poison
 612,,Tranchodon,5,Dragon,
-630,,Vaututrice,5,Ténèbres,Vol
+630,,Vaututrice,5,Tenebres,Vol
 638,,Cobaltium,5,Acier,Combat
 641,,Boréas - Forme Avatar,5,Vol,
 642,T,Fulguris - Forme Totémique,5,Electrik,Vol
 646,,Kyurem,5,Dragon,Glace
 660,,Excavarenne,6,Normal,Sol
-700,,Nymphali,6,Fée,
+700,,Nymphali,6,Fee,
 701,,Brutalibré,6,Combat,Vol
 718,D,Zygarde - Forme 10%,6,Dragon,Sol
-719,,Diancie,6,Roche,Fée
-743,,Rubombelle,7,Insecte,Fée
+719,,Diancie,6,Roche,Fee
+743,,Rubombelle,7,Insecte,Fee
 784,,Ékaïser,7,Dragon,Combat
-788,,Tokopisco,7,Eau,Fée
+788,,Tokopisco,7,Eau,Fee
 793,,Zéroïd,7,Roche,Poison
 794,,Mouscoto,7,Insecte,Combat
 576,,Sidérella,5,Psy,
@@ -150,7 +150,7 @@ id,form,nameFr,generation,type1,type2
 73,,Tentacruel,1,Eau,Poison
 80,,Flagadoss,1,Eau,Psy
 82,,Magnéton,1,Electrik,Acier
-89,A,Grotadmorv d'Alola,1,Poison,Ténèbres
+89,A,Grotadmorv d'Alola,1,Poison,Tenebres
 91,,Crustabri,1,Eau,Glace
 103,A,Noadkoko d'Alola,1,Plante,Dragon
 133,,Évoli,1,Normal,
@@ -165,7 +165,7 @@ id,form,nameFr,generation,type1,type2
 186,,Tarpaud,2,Eau,
 195,,Maraiste,2,Eau,Sol
 196,,Mentali,2,Psy,
-197,,Noctali,2,Ténèbres,
+197,,Noctali,2,Tenebres,
 199,,Roigada,2,Eau,Psy
 202,,Qulbutoké,2,Psy,
 208,M,Steelix - Méga-Évolution,2,Acier,Sol
@@ -176,13 +176,13 @@ id,form,nameFr,generation,type1,type2
 260,,Laggron,3,Eau,Sol
 272,,Ludicolo,3,Eau,Plante
 306,M,Galeking - Méga-Évolution,3,Acier,
-319,,Sharpedo,3,Eau,Ténèbres
+319,,Sharpedo,3,Eau,Tenebres
 323,M,Camérupt - Méga-Évolution,3,Feu,Sol
 324,,Chartor,3,Feu,
 330,,Libégon,3,Sol,Dragon
 350,,Milobellus,3,Eau,
 354,M,Branette - Méga-Évolution,3,Spectre,
-359,M,Absol - Méga-Évolution,3,Ténèbres,
+359,M,Absol - Méga-Évolution,3,Tenebres,
 362,M,Oniglali - Méga-Évolution,3,Glace,
 367,,Serpang,3,Eau,
 368,,Rosabyss,3,Eau,
@@ -191,7 +191,7 @@ id,form,nameFr,generation,type1,type2
 395,,Pingoléon,4,Eau,Acier
 398,,Étouraptor,4,Normal,Vol
 423,,Tritosor,4,Eau,Sol
-430,,Corboss,4,Ténèbres,Vol
+430,,Corboss,4,Tenebres,Vol
 454,,Coatox,4,Poison,Combat
 460,M,Blizzaroi - Méga-Évolution,4,Plante,Glace
 475,,Gallame,4,Psy,Combat
@@ -199,11 +199,11 @@ id,form,nameFr,generation,type1,type2
 480,,Créhelf,4,Psy,
 482,,Créfadet,4,Psy,
 500,,Roitiflam,5,Feu,Combat
-547,,Farfaduvet,5,Plante,Fée
-553,,Crocorible,5,Sol,Ténèbres
+547,,Farfaduvet,5,Plante,Fee
+553,,Crocorible,5,Sol,Tenebres
 555,T,Darumacho - Mode Transe,5,Feu,Psy
 565,,Mégapagos,5,Eau,Roche
-571,,Zoroark,5,Ténèbres,
+571,,Zoroark,5,Tenebres,
 593,,Moyade,5,Eau,Spectre
 594,,Mamanbo,5,Eau,
 596,,Mygavolt,5,Insecte,Electrik
@@ -215,32 +215,32 @@ id,form,nameFr,generation,type1,type2
 648,D,Meloetta - Forme Danse,5,Normal,Combat
 652,,Blindépique,6,Plante,Combat
 663,,Flambusard,6,Feu,Vol
-671,,Florges,6,Fée,
-675,,Pandarbare,6,Combat,Ténèbres
+671,,Florges,6,Fee,
+675,,Pandarbare,6,Combat,Tenebres
 680,,Dimoclès,6,Acier,Spectre
-685,,Cupcanaille,6,Fée,
+685,,Cupcanaille,6,Fee,
 689,,Golgopathe,6,Roche,Eau
 691,,Kravarech,6,Poison,Dragon
 697,,Rexillius,6,Roche,Dragon
-707,,Trousselin,6,Acier,Fée
-730,,Oratoria,7,Eau,Fée
+707,,Trousselin,6,Acier,Fee
+730,,Oratoria,7,Eau,Fee
 745,D,Lougaroc - Forme Diurne,7,Roche,
 752,,Tarenbulle,7,Eau,Insecte
 760,,Chelours,7,Normal,Combat
 745,C,Lougaroc - Forme Crépuscule,7,Roche,
 6,,Dracaufeu,1,Feu,Vol
 20,,Rattatac,1,Normal,
-20,A,Rattatac d'Alola,1,Ténèbres,Normal
+20,A,Rattatac d'Alola,1,Tenebres,Normal
 24,,Arbok,1,Poison,
 28,,Sablaireau,1,Sol,
 28,A,Sablaireau d'Alola,1,Glace,Acier
-35,,Mélofée,1,Fée,
-40,,Grodoudou,1,Normal,Fée
+35,,MéloFee,1,Fee,
+40,,Grodoudou,1,Normal,Fee
 42,,Nosferalto,1,Poison,Vol
 49,,Aéromite,1,Insecte,Poison
 50,,Taupiqueur,1,Sol,
 51,A,Triopikeur d'Alola,1,Sol,Acier
-53,A,Persian d'Alola,1,Ténèbres,
+53,A,Persian d'Alola,1,Tenebres,
 57,,Colossinge,1,Combat,
 62,,Tartard,1,Eau,Combat
 64,,Kadabra,1,Psy,
@@ -263,33 +263,33 @@ id,form,nameFr,generation,type1,type2
 144,,Artikodin,1,Glace,Vol
 157,,Typhlosion,2,Feu,
 171,,Lanturn,2,Eau,Electrik
-176,,Togetic,2,Fée,Vol
+176,,Togetic,2,Fee,Vol
 205,,Foretress,2,Insecte,Acier
 207,,Scorplane,2,Sol,Vol
 208,,Steelix,2,Acier,Sol
 211,,Qwilfish,2,Eau,Poison
-215,,Farfuret,2,Ténèbres,Glace
+215,,Farfuret,2,Tenebres,Glace
 217,,Ursaring,2,Normal,
 221,,Cochignon,2,Glace,Sol
-229,,Démolosse,2,Ténèbres,Feu
+229,,Démolosse,2,Tenebres,Feu
 232,,Donphan,2,Sol,
 237,,Kapoera,2,Combat,
 241,,Écrémeuh,2,Normal,
 254,,Jungko,3,Plante,
 256,,Galifeu,3,Feu,Combat
 264,,Linéon,3,Normal,
-275,,Tengalice,3,Plante,Ténèbres
+275,,Tengalice,3,Plante,Tenebres
 277,,Hélédelle,3,Normal,Vol
-282,,Gardevoir,3,Psy,Fée
+282,,Gardevoir,3,Psy,Fee
 284,,Maskadra,3,Insecte,Vol
 289,,Monaflèmit,3,Normal,
 295,,Brouhabam,3,Normal,
 297,,Hariyama,3,Combat,
-302,,Ténéfix,3,Ténèbres,Spectre
+302,,Ténéfix,3,Tenebres,Spectre
 306,,Galeking,3,Acier,Roche
 308,,Charmina,3,Combat,Psy
 328,,Kraknoix,3,Sol,
-332,,Cacturne,3,Plante,Ténèbres
+332,,Cacturne,3,Plante,Tenebres
 334,,Altaria,3,Dragon,Vol
 335,,Mangriff,3,Normal,
 356,,Téraclope,3,Spectre,
@@ -301,7 +301,7 @@ id,form,nameFr,generation,type1,type2
 419,,Mustéflott,4,Eau,
 437,,Archéodong,4,Acier,Psy
 441,,Pijako,4,Normal,Vol
-452,,Drascore,4,Poison,Ténèbres
+452,,Drascore,4,Poison,Tenebres
 460,,Blizzaroi,4,Plante,Glace
 464,,Rhinastoc,4,Sol,Roche
 466,,Élekable,4,Electrik,
@@ -317,12 +317,12 @@ id,form,nameFr,generation,type1,type2
 518,,Mushana,5,Psy,
 526,,Gigalithe,5,Roche,
 528,,Rhinolove,5,Psy,Vol
-531,M,Nanméouïe - Méga-Évolution,5,Normal,Fée
+531,M,Nanméouïe - Méga-Évolution,5,Normal,Fee
 537,,Crapustule,5,Eau,Sol
-546,,Doudouvet,5,Plante,Fée
+546,,Doudouvet,5,Plante,Fee
 549,,Fragilady,5,Plante,
 558,,Crabaraque,5,Insecte,Roche
-560,,Baggaïd,5,Ténèbres,Combat
+560,,Baggaïd,5,Tenebres,Combat
 561,,Cryptéro,5,Psy,Vol
 563,,Tutankafer,5,Spectre,
 567,,Aéroptéryx,5,Roche,Vol
@@ -341,28 +341,28 @@ id,form,nameFr,generation,type1,type2
 666,,Prismillon,6,Insecte,Vol
 668,,Némélios,6,Feu,Normal
 673,,Chevroum,6,Plante,
-687,,Sepiatroce,6,Ténèbres,Psy
+687,,Sepiatroce,6,Tenebres,Psy
 693,,Gamblast,6,Eau,
 695,,Iguolta,6,Electrik,Normal
-703,,Strassie,6,Roche,Fée
+703,,Strassie,6,Roche,Fee
 706,,Muplodocus,6,Dragon,
-711,,Banshitrouye - Taille Maxi,6,Spectre,Plante
-711,,Banshitrouye - Taille Ultra,6,Spectre,Plante
+711,X,Banshitrouye - Taille Maxi,6,Spectre,Plante
+711,U,Banshitrouye - Taille Ultra,6,Spectre,Plante
 713,,Séracrawl,6,Glace,
 715,,Bruyverne,6,Vol,Dragon
 724,,Archéduc,7,Plante,Spectre
 740,,Crabominable,7,Combat,Glace
 758,,Malamandre,7,Poison,Feu
-764,,Guérilande,7,Fée,
+764,,Guérilande,7,Fee,
 768,,Sarmuraï,7,Insecte,Eau
 771,,Concombaffe,7,Eau,
 773,,Silvallié,7,Normal,
 774,,Météno,7,Roche,Vol
-774,,Météno - Exposé,7,Roche,Vol
+774,E,Météno - Exposé,7,Roche,Vol
 779,,Denticrisse,7,Eau,Psy
 780,,Draïeul,7,Normal,Dragon
 781,,Sinistrail,7,Spectre,Plante
-799,,Engloutyran,7,Ténèbres,Dragon
+799,,Engloutyran,7,Tenebres,Dragon
 800,,Necrozma,7,Psy,
 1,,Bulbizarre,1,Plante,Poison
 2,,Herbizarre,1,Plante,Poison
@@ -380,7 +380,7 @@ id,form,nameFr,generation,type1,type2
 17,,Roucoups,1,Normal,Vol
 18,,Roucarnage,1,Normal,Vol
 19,,Rattata,1,Normal,
-19,A,Rattata d'Alola,1,Ténèbres,Normal
+19,A,Rattata d'Alola,1,Tenebres,Normal
 21,,Piafabec,1,Normal,Vol
 22,,Rapasdepic,1,Normal,Vol
 23,,Abo,1,Poison,
@@ -394,7 +394,7 @@ id,form,nameFr,generation,type1,type2
 33,,Nidorino,1,Poison,
 37,,Goupix,1,Feu,
 37,A,Goupix d'Alola,1,Glace,
-39,,Rondoudou,1,Normal,Fée
+39,,Rondoudou,1,Normal,Fee
 41,,Nosferapti,1,Poison,Vol
 43,,Mystherbe,1,Plante,Poison
 44,,Ortide,1,Plante,Poison
@@ -404,7 +404,7 @@ id,form,nameFr,generation,type1,type2
 48,,Mimitoss,1,Insecte,Poison
 50,A,Taupiqueur d'Alola,1,Sol,Acier
 52,,Miaouss,1,Normal,
-52,A,Miaouss d'Alola,1,Ténèbres,
+52,A,Miaouss d'Alola,1,Tenebres,
 53,,Persian,1,Normal,
 54,,Psykokwak,1,Eau,
 55,,Akwakwak,1,Eau,
@@ -431,7 +431,7 @@ id,form,nameFr,generation,type1,type2
 86,,Otaria,1,Eau,
 87,,Lamantine,1,Eau,Glace
 88,,Tadmorv,1,Poison,
-88,A,Tadmorv d'Alola,1,Poison,Ténèbres
+88,A,Tadmorv d'Alola,1,Poison,Tenebres
 90,,Kokiyas,1,Eau,
 92,,Fantominus,1,Spectre,Poison
 93,,Spectrum,1,Spectre,Poison
@@ -454,7 +454,7 @@ id,form,nameFr,generation,type1,type2
 118,,Poissirène,1,Eau,
 119,,Poissoroy,1,Eau,
 120,,Stari,1,Eau,
-122,,M. Mime,1,Psy,Fée
+122,,M. Mime,1,Psy,Fee
 123,,Insécateur,1,Insecte,Vol
 124,,Lippoutou,1,Glace,Psy
 125,,Élektek,1,Electrik,
@@ -483,15 +483,15 @@ id,form,nameFr,generation,type1,type2
 168,,Migalos,2,Insecte,Poison
 170,,Loupio,2,Eau,Electrik
 172,,Pichu,2,Electrik,
-173,,Mélo,2,Fée,
-174,,Toudoudou,2,Normal,Fée
-175,,Togepi,2,Fée,
+173,,Mélo,2,Fee,
+174,,Toudoudou,2,Normal,Fee
+175,,Togepi,2,Fee,
 177,,Natu,2,Psy,Vol
 179,,Wattouat,2,Electrik,
 180,,Lainergie,2,Electrik,
 181,,Pharamp,2,Electrik,
 182,,Joliflor,2,Plante,
-183,,Marill,2,Eau,Fée
+183,,Marill,2,Eau,Fee
 185,,Simularbre,2,Roche,
 187,,Granivol,2,Plante,Vol
 188,,Floravol,2,Plante,Vol
@@ -501,14 +501,14 @@ id,form,nameFr,generation,type1,type2
 192,,Héliatronc,2,Plante,
 193,,Yanma,2,Insecte,Vol
 194,,Axoloto,2,Eau,Sol
-198,,Cornèbre,2,Ténèbres,Vol
+198,,Cornèbre,2,Tenebres,Vol
 200,,Feuforêve,2,Spectre,
 201,,Zarbi,2,Psy,
 203,,Girafarig,2,Normal,Psy
 204,,Pomdepik,2,Insecte,
 206,,Insolourdo,2,Normal,
-209,,Snubbull,2,Fée,
-210,,Granbull,2,Fée,
+209,,Snubbull,2,Fee,
+210,,Granbull,2,Fee,
 216,,Teddiursa,2,Normal,
 218,,Limagma,2,Feu,
 219,,Volcaropod,2,Feu,Roche
@@ -517,7 +517,7 @@ id,form,nameFr,generation,type1,type2
 223,,Rémoraid,2,Eau,
 224,,Octillery,2,Eau,
 225,,Cadoizo,2,Glace,Vol
-228,,Malosse,2,Ténèbres,Feu
+228,,Malosse,2,Tenebres,Feu
 231,,Phanpy,2,Sol,
 234,,Cerfrousse,2,Normal,
 236,,Debugant,2,Combat,
@@ -531,8 +531,8 @@ id,form,nameFr,generation,type1,type2
 255,,Poussifeu,3,Feu,
 258,,Gobou,3,Eau,
 259,,Flobio,3,Eau,Sol
-261,,Medhyèna,3,Ténèbres,
-262,,Grahyèna,3,Ténèbres,
+261,,Medhyèna,3,Tenebres,
+262,,Grahyèna,3,Tenebres,
 263,,Zigzaton,3,Normal,
 265,,Chenipotte,3,Insecte,
 266,,Armulys,3,Insecte,
@@ -542,11 +542,11 @@ id,form,nameFr,generation,type1,type2
 270,,Nénupiot,3,Eau,Plante
 271,,Lombre,3,Eau,Plante
 273,,Grainipiot,3,Plante,
-274,,Pifeuil,3,Plante,Ténèbres
+274,,Pifeuil,3,Plante,Tenebres
 276,,Nirondelle,3,Normal,Vol
 278,,Goélise,3,Eau,Vol
-280,,Tarsal,3,Psy,Fée
-281,,Kirlia,3,Psy,Fée
+280,,Tarsal,3,Psy,Fee
+281,,Kirlia,3,Psy,Fee
 283,,Arakdo,3,Insecte,Eau
 285,,Balignon,3,Plante,
 287,,Parecool,3,Normal,
@@ -556,11 +556,11 @@ id,form,nameFr,generation,type1,type2
 293,,Chuchmur,3,Normal,
 294,,Ramboum,3,Normal,
 296,,Makuhita,3,Combat,
-298,,Azurill,3,Normal,Fée
+298,,Azurill,3,Normal,Fee
 299,,Tarinor,3,Roche,
 300,,Skitty,3,Normal,
 301,,Delcatty,3,Normal,
-303,,Mysdibule,3,Acier,Fée
+303,,Mysdibule,3,Acier,Fee
 304,,Galekid,3,Acier,Roche
 305,,Galegon,3,Acier,Roche
 307,,Méditikka,3,Combat,Psy
@@ -573,7 +573,7 @@ id,form,nameFr,generation,type1,type2
 315,,Rosélia,3,Plante,Poison
 316,,Gloupti,3,Poison,
 317,,Avaltout,3,Poison,
-318,,Carvanha,3,Eau,Ténèbres
+318,,Carvanha,3,Eau,Tenebres
 320,,Wailmer,3,Eau,
 321,,Wailord,3,Eau,
 322,,Chamallot,3,Feu,Sol
@@ -607,7 +607,7 @@ id,form,nameFr,generation,type1,type2
 355,,Skelénox,3,Spectre,
 357,,Tropius,3,Plante,Vol
 358,,Éoko,3,Psy,
-359,,Absol,3,Ténèbres,
+359,,Absol,3,Tenebres,
 360,,Okéoké,3,Psy,
 361,,Stalgamin,3,Glace,
 362,,Oniglali,3,Glace,
@@ -662,13 +662,13 @@ id,form,nameFr,generation,type1,type2
 431,,Chaglam,4,Normal,
 432,,Chaffreux,4,Normal,
 433,,Korillon,4,Psy,
-434,,Moufouette,4,Poison,Ténèbres
-435,,Moufflair,4,Poison,Ténèbres
+434,,Moufouette,4,Poison,Tenebres
+435,,Moufflair,4,Poison,Tenebres
 436,,Archéomire,4,Acier,Psy
 438,,Manzaï,4,Roche,
-439,,Mime Jr.,4,Psy,Fée
+439,,Mime Jr.,4,Psy,Fee
 440,,Ptiravi,4,Normal,
-442,,Spiritomb,4,Spectre,Ténèbres
+442,,Spiritomb,4,Spectre,Tenebres
 443,,Griknot,4,Dragon,Sol
 444,,Carmache,4,Dragon,Sol
 446,,Goinfrex,4,Normal,
@@ -698,8 +698,8 @@ id,form,nameFr,generation,type1,type2
 505,,Miradar,5,Normal,
 506,,Ponchiot,5,Normal,
 507,,Ponchien,5,Normal,
-509,,Chacripan,5,Ténèbres,
-510,,Léopardus,5,Ténèbres,
+509,,Chacripan,5,Tenebres,
+510,,Léopardus,5,Tenebres,
 511,,Feuillajou,5,Plante,
 512,,Feuiloutan,5,Plante,
 513,,Flamajou,5,Feu,
@@ -730,18 +730,18 @@ id,form,nameFr,generation,type1,type2
 544,,Scobolide,5,Insecte,Poison
 548,,Chlorobule,5,Plante,
 550,,Bargantua,5,Eau,
-550,,Bargantua - Motif Bleu,5,Eau,
-551,,Mascaïman,5,Sol,Ténèbres
-552,,Escroco,5,Sol,Ténèbres
+550,B,Bargantua - Motif Bleu,5,Eau,
+551,,Mascaïman,5,Sol,Tenebres
+552,,Escroco,5,Sol,Tenebres
 554,,Darumarond,5,Feu,
 556,,Maracachi,5,Plante,
 557,,Crabicoque,5,Insecte,Roche
-559,,Baggiguane,5,Ténèbres,Combat
+559,,Baggiguane,5,Tenebres,Combat
 562,,Tutafeh,5,Spectre,
 564,,Carapagos,5,Eau,Roche
 566,,Arkéapti,5,Roche,Vol
 568,,Miamiasme,5,Poison,
-570,,Zorua,5,Ténèbres,
+570,,Zorua,5,Tenebres,
 572,,Chinchidou,5,Normal,
 574,,Scrutella,5,Psy,
 577,,Nucléos,5,Psy,
@@ -776,12 +776,12 @@ id,form,nameFr,generation,type1,type2
 618,,Limonde,5,Sol,Electrik
 619,,Kungfouine,5,Combat,
 622,,Gringolem,5,Sol,Spectre
-624,,Scalpion,5,Ténèbres,Acier
+624,,Scalpion,5,Tenebres,Acier
 627,,Furaiglon,5,Normal,Vol
-629,,Vostourno,5,Ténèbres,Vol
+629,,Vostourno,5,Tenebres,Vol
 631,,Aflamanoir,5,Feu,
-633,,Solochi,5,Ténèbres,Dragon
-634,,Diamat,5,Ténèbres,Dragon
+633,,Solochi,5,Tenebres,Dragon
+634,,Diamat,5,Tenebres,Dragon
 636,,Pyronille,5,Insecte,Feu
 650,,Marisson,6,Plante,
 651,,Boguérisse,6,Plante,
@@ -795,19 +795,19 @@ id,form,nameFr,generation,type1,type2
 664,,Lépidonille,6,Insecte,
 665,,Pérégrain,6,Insecte,
 667,,Hélionceau,6,Feu,Normal
-669,,Flabébé,6,Fée,
-670,,Floette,6,Fée,
+669,,Flabébé,6,Fee,
+670,,Floette,6,Fee,
 672,,Cabriolaine,6,Plante,
 674,,Pandespiègle,6,Combat,
 676,,Couafarel,6,Normal,
 677,,Psystigri,6,Psy,
-678,,Mistigrix - Mâle,6,Psy,
-678,,Mistigrix - Femelle,6,Psy,
+678,,Mistigrix,6,Psy,
+678,F,Mistigrix - Femelle,6,Psy,
 679,,Monorpale,6,Acier,Spectre
-682,,Fluvetin,6,Fée,
-683,,Cocotine,6,Fée,
-684,,Sucroquin,6,Fée,
-686,,Sepiatop,6,Ténèbres,Psy
+682,,Fluvetin,6,Fee,
+683,,Cocotine,6,Fee,
+684,,Sucroquin,6,Fee,
+686,,Sepiatop,6,Tenebres,Psy
 688,,Opermine,6,Roche,Eau
 690,,Venalgue,6,Poison,Eau
 692,,Flingouste,6,Eau,
@@ -815,24 +815,24 @@ id,form,nameFr,generation,type1,type2
 696,,Ptyranidur,6,Roche,Dragon
 698,,Amagara,6,Roche,Glace
 699,,Dragmara,6,Roche,Glace
-702,,Dedenne,6,Electrik,Fée
+702,,Dedenne,6,Electrik,Fee
 704,,Mucuscule,6,Dragon,
 705,,Colimucus,6,Dragon,
 708,,Brocélôme,6,Spectre,Plante
 709,,Desséliande,6,Spectre,Plante
 710,,Pitrouille - Taille Normale,6,Spectre,Plante
-710,,Pitrouille - Taille Mini,6,Spectre,Plante
-710,,Pitrouille - Taille Maxi,6,Spectre,Plante
-710,,Pitrouille - Taille Ultra,6,Spectre,Plante
+710,N,Pitrouille - Taille Mini,6,Spectre,Plante
+710,X,Pitrouille - Taille Maxi,6,Spectre,Plante
+710,U,Pitrouille - Taille Ultra,6,Spectre,Plante
 711,,Banshitrouye - Taille Normale,6,Spectre,Plante
-711,,Banshitrouye - Taille Mini,6,Spectre,Plante
+711,N,Banshitrouye - Taille Mini,6,Spectre,Plante
 712,,Grelaçon,6,Glace,
 714,,Sonistrelle,6,Vol,Dragon
 722,,Brindibou,7,Plante,Vol
 723,,Efflèche,7,Plante,Vol
-725,,Flamiaou‎‎,7,Feu,
+725,,Flamiaou,,7,Feu,
 726,,Matoufeu,7,Feu,
-727,,Félinferno,7,Feu,Ténèbres
+727,,Félinferno,7,Feu,Tenebres
 728,,Otaquin,7,Eau,
 729,,Otarlette,7,Eau,
 731,,Picassaut,7,Normal,Vol
@@ -848,7 +848,7 @@ id,form,nameFr,generation,type1,type2
 741,P,Plumeline - Style Pom-Pom,7,Electrik,Vol
 741,H,Plumeline - Style Hula,7,Psy,Vol
 741,B,Plumeline - Style Buyō,7,Spectre,Vol
-742,,Bombydou,7,Insecte,Fée
+742,,Bombydou,7,Insecte,Fee
 744,,Rocabot,7,Roche,
 745,N,Lougaroc - Forme Nocturne,7,Roche,
 746,,Froussardine,7,Eau,
@@ -859,8 +859,8 @@ id,form,nameFr,generation,type1,type2
 751,,Araqua,7,Eau,Insecte
 753,,Mimantis,7,Plante,
 754,,Floramantis,7,Plante,
-755,,Spododo,7,Plante,Fée
-756,,Lampignon,7,Plante,Fée
+755,,Spododo,7,Plante,Fee
+756,,Lampignon,7,Plante,Fee
 757,,Tritox,7,Poison,Feu
 759,,Nounourson,7,Normal,Combat
 761,,Croquine,7,Plante,
@@ -908,9 +908,9 @@ id,form,nameFr,generation,type1,type2
 493,,Arceus,4,Normal,
 643,,Reshiram,5,Dragon,Feu
 644,,Zekrom,5,Dragon,Electrik
-646,,Kyurem - Blanc,5,Dragon,Glace
-716,,Xerneas,6,Fée,
-717,,Yveltal,6,Ténèbres,Vol
+646,W,Kyurem - Blanc,5,Dragon,Glace
+716,,Xerneas,6,Fee,
+717,,Yveltal,6,Tenebres,Vol
 718,P,Zygarde - Forme 100%,6,Dragon,Sol
 791,,Solgaleo,7,Psy,Acier
 792,,Lunala,7,Psy,Spectre

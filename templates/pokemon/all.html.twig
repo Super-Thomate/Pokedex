@@ -1,5 +1,35 @@
 {% extends 'base/base.html.twig' %}
 {%block main%}
   <h2>All Pokemon</h2>
-  
+  <table>
+    <tr>
+      <th>Id</th>
+      <th>Sprite</th>
+      <th>Name</th>
+      <th>Types</th>
+      <th>Generation</th>
+    </tr>
+  {%for pokemon in pokemons%}
+    <tr>
+      <td>
+        {{pokemon.id}}
+       </td>
+      <td>
+        <img src="{{asset("img/mini_sprites/mini_#{pokemon.generation}/mini_#{pokemon.generation}_#{pokemon.id}.png")}}">
+      </td>
+      <td>
+        {{pokemon.name}}
+      </td>
+      <td>
+        <img src="{{asset("img/types/#{pokemon.type1}.png")}}" alt="">
+        {% if pokemon.type2 %}
+        <img src="{{asset("img/types/#{pokemon.type2}.png")}}" alt="">
+        {% endif %}
+      </td>
+      <td>
+        {{pokemon.generation}}
+      </td>
+    </tr>
+  {%endfor%}
+  </table>
 {%endblock%}
