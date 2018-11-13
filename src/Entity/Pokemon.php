@@ -56,6 +56,12 @@ class Pokemon
     {
         return $this->id;
     }
+    public function setId(int $id): self
+    {
+        $this->id = $id;
+
+        return $this;
+    }
 
     public function getName(): ?string
     {
@@ -147,4 +153,16 @@ class Pokemon
 
         return $this;
     }
+    public function getFormatedId () {
+      return $this -> formatId ($this -> id) ;
+    }
+    protected function formatId ($id) {
+    return (   $id < 10
+             ? "00".$id
+             : (   $id < 100
+                 ? "0".$id
+                 : $id
+               )
+           ) ;
+  }
 }

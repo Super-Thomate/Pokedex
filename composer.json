@@ -12,6 +12,7 @@
         "symfony/framework-bundle": "*",
         "symfony/maker-bundle": "^1.8",
         "symfony/orm-pack": "^1.0",
+        "symfony/profiler-pack": "^1.0",
         "symfony/twig-bundle": "*",
         "symfony/yaml": "*",
         "twig/twig": "^2.0"

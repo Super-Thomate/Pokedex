@@ -1,6 +1,133 @@
 {% extends 'base/base.html.twig' %}
-{%block main%}
-  <h2>Welcome to my Pokedex !</h2>
-  
-  <p>You can search for a pokemon and consult it.</p>
+{%block stylesheets%}
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="{{ asset('css/pokemon.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/search.css') }}">
 {%endblock%}
+{%block main%}
+<div class="text-center">
+  <h2>
+    Welcome to my Pokedex !
+  </h2>
+</div>
+<form class="col-md-8 mx-auto mt-2" method="post">
+  <div class="form-group input-group">
+    <div class="input-group-prepend">
+      <label class="input-group-text">Name</label>
+    </div>
+    <input class="form-control" type="text" name="name" id="name" placeholder="Pokename">
+  </div>
+  <div class="text-center">
+    <small id="help_name" class="form-text">
+      Search for pokemon with any name.
+    </small>
+  </div>
+  <div class="text-center">
+    <hr>
+    <div class="d-types">
+    {%for type in types1%}
+      <div class="pointer types unselected {{type}} badge vt323" id="{{type}}">
+        {{type|capitalize}}
+      </div>
+    {%endfor%}
+    </div>
+    <div class="d-types mt-2">
+    {%for type in types2%}
+      <div class="pointer types unselected {{type}} badge vt323" id="{{type}}">
+        {{type|capitalize}}
+      </div>
+    {%endfor%}
+    </div>
+    <div class="d-types col-5 mx-auto mt-2">
+      <div class="badge badge-secondary pointer operator vt323" id="mono">
+        MONO
+      </div>
+      <div class="badge badge-secondary unselected vt323" id="or">
+        OR
+      </div>
+      <div class="badge badge-secondary pointer operator vt323" id="double">
+        DOUBLE
+      </div>
+    </div>
+    <small id="help_types" class="form-text">
+     Search for pokemon with any type.
+    </small>
+    <hr>
+    <div class="d-types">
+    {%for gen in 1..7 %}
+      <div class="badge badge-secondary pointer generation vt323" id="{{gen}}">
+        Generation {{gen}}
+      </div>
+    {%endfor%}
+    </div>
+    <small id="help_generations" class="form-text">
+      Search for pokemon in any generation.
+    </small>
+    <hr>
+  </div>
+  <!-- CONDITIONS -->
+  <input type="hidden" name="hi_types"       id="hi_types"      >
+  <input type="hidden" name="hi_generations" id="hi_generations">
+  <input type="hidden" name="hi_operation"   id="hi_operation"  >
+  <input type="hidden" name="hi_or"          id="hi_or"         >
+  <!-- HANDLER -->
+  <input type="hidden" name="handler" value="search">
+</form>
+<div class="container" id="container">
+  <table id="poke_table" class="table table-striped table-bordered table-dark table-hover">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Sprite</th>
+        <th>Name</th>
+        <th>Types</th>
+        <th>Generation</th>
+      </tr>
+    </thead>
+    <tbody>
+    {%for pokemon in pokemons%}
+      <tr>
+        <td class="text-center">
+          {{pokemon.formatedId}}
+         </td>
+        <td class="text-center">
+          <img src="{{asset("img/mini_sprites/mini_#{pokemon.generation}/mini_#{pokemon.generation}_#{pokemon.formatedId}.png")}}">
+        </td>
+        <td class="pokemon_name">
+          {{pokemon.name}}
+        </td>
+        <td class="d-flex justify-content-start">
+          <div class="{{pokemon.type1}} badge vt323">
+            {{pokemon.type1|capitalize}}
+          </div>
+          {% if pokemon.type2 %}
+          <div class="{{pokemon.type2}} badge vt323">
+            {{pokemon.type2|capitalize}}
+          </div>
+          {% endif %}
+        </td>
+        <td>
+          {{pokemon.generation}}
+        </td>
+      </tr>
+    {%endfor%}
+    </tbody>
+  </table>
+</div>
+{%endblock%}
+{% block javascripts %}
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+    <script src="/script/search.js"></script>
+    <script>
+    $(document).ready( function () {
+      $('#poke_table')
+        .DataTable({
+             "searching": false
+          ,   "ordering": false
+          , "lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]]
+        })
+        ;
+    } );
+    </script>
+{% endblock %}

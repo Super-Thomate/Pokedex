@@ -4,22 +4,28 @@
 {% endblock %}
 {%block main%}
   <div class="container m-auto">
-    <h2>#{{id}} - {{pokemon["name"]}}</h2>
+    <h2>#{{pokemon.formatedId}} - {{pokemon.name}}</h2>
     <div class="d-flex">
       <section class="col-6 text-center">
         <figure>
-         <img src="{{ asset("img/sprites/gen_1/Sprite_3_f_#{pokemon.pokeId}.png") }}">
+         <img src="{{ asset("img/mini_sprites/mini_#{pokemon.generation}/mini_#{pokemon.generation}_#{pokemon.formatedId}.png") }}">
          <figcaption>
-           {{pokemon["name"]}}
+           {{pokemon.name}}
          </figcaption>
         </figure>
       </section>
-      <section class="col-6">
+      <section class="col-2">
         <h4>Type</h4>
-        <img src="{{asset("img/types/#{pokemon.type1}.png")}}" alt="">
-        {% if pokemon.type2 %}
-          <img src="{{asset("img/types/#{pokemon.type2}.png")}}" alt="">
-        {% endif %}
+        <div class="d-flex justify-content-around">
+          <div class="pointer types" id="{{pokemon.type1}}">
+            {{pokemon.type1|capitalize}}
+          </div>
+          {% if pokemon.type2 %}
+          <div class="pointer types" id="{{pokemon.type2}}">
+            {{pokemon.type2|capitalize}}
+          </div>
+          {% endif %}
+        </div>
       </section>
     </div>
   </div>

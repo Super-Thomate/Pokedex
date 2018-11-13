@@ -6,6 +6,7 @@ $("#name").on('input', function (evt) {
   if ($(this).val())
     help                     = " Search for pokemon with '"+$(this).val()+"' in its name." ;
   $("#help_name").text(help) ;
+  get_pokemons () ;
 }) ;
 /**************************/
 /**    HANDLING TYPES    **/
@@ -14,14 +15,12 @@ $(".types").on('click', function () {
   let that                   = $(this) ;
   let status                 = that.hasClass ("unselected") ;
   let id                     = this.id ;
-  let allOperations          =
-    $("#hi_operations").val ().split ('|').filter (function (operation) {
-      return operation.length ;
-    }) ;
   let allTypes               =
     $('#hi_types').val().split("|").filter (function (type) {
       return type.length ;
     }) ;
+  let alloperation          = $("#hi_operation").val ()  ;
+  let or                     = $("#hi_or").val ()  ;
   if (status) {
     that.removeClass("unselected") ;
     allTypes         [allTypes.length] = id ;
@@ -32,128 +31,169 @@ $(".types").on('click', function () {
     }) ;
   }
   allTypes.sort () ;
-  write_help_types (allTypes, allOperations) ;
+  write_help_types (allTypes, alloperation, or) ;
   $('#hi_types').val(allTypes.join("|")) ;
+  get_pokemons () ;
 }) ;
+/**************************/
+/**  HANDLING OPERATORS  **/
+/**************************/
 $(".operator").on('click', function () {
   let that                   = $(this) ;
   let id                     = this.id ;
-  let allOperations          =
-    $("#hi_operations").val ().split ('|').filter (function (operation) {
-      return operation.length ;
-    }) ;
   let allTypes               =
     $('#hi_types').val().split("|").filter (function (type) {
       return type.length ;
     }) ;
-  if (that.hasClass ("badge-disabled"))
-    return ;
+  let alloperation          = $("#hi_operation").val ()  ;
+  let or                     = $("#hi_or").val ()  ;
   switch (id) {
-    case  'and':
+    case  'double':
      if (that.hasClass('badge-secondary')) {
-       that.removeClass('badge-secondary').addClass('badge-success') ;
-       $("#or").removeClass('badge-secondary').removeClass('pointer').addClass("badge-disabled") ;
-       $("#mono").removeClass('badge-secondary').removeClass('pointer').addClass("badge-disabled") ;
-       allOperations         = ["and"] ;
+        that.removeClass('badge-secondary').addClass('badge-success') ;
+        $("#mono").removeClass('badge-secondary').addClass("badge-disabled") ;
+        alloperation        = "double" ;
+        $("#or").removeClass("badge-secondary unselected").addClass("badge-primary pointer") ;
+     } else if (that.hasClass('badge-success')) {
+        that.removeClass('badge-success').addClass('badge-secondary') ;
+        $("#mono").removeClass("badge-disabled").addClass('badge-secondary') ;
+        alloperation        = "" ;
+        $("#or").removeClass("badge-primary badge-success pointer").addClass("badge-secondary unselected") ;
+        $("#hi_or").val ('') ;
      } else {
-       that.removeClass('badge-success').addClass('badge-secondary') ;
-       $("#or").addClass('badge-secondary').addClass('pointer').removeClass("badge-disabled") ;
-       $("#mono").addClass('badge-secondary').addClass('pointer').removeClass("badge-disabled") ;
-       allOperations         = [] ;
+        that.removeClass("badge-disabled").addClass('badge-success') ;
+        $("#mono").removeClass('badge-success').addClass('badge-disabled') ;
+        alloperation        = "double" ;
+        $("#or").removeClass("badge-secondary unselected").addClass("badge-primary pointer") ;
      }
     break ;
     case 'mono':
-    case   'or':
       if (that.hasClass('badge-secondary')) {
         that.removeClass('badge-secondary').addClass('badge-success') ;
-        $("#and").removeClass('badge-secondary').removeClass('pointer').addClass("badge-disabled") ;
-        allOperations     [allOperations.length] = id ;
-      } else {
+        $("#double").removeClass('badge-secondary').addClass("badge-disabled") ;
+        alloperation         = "mono" ;
+      } else if (that.hasClass('badge-success')) {
         that.removeClass('badge-success').addClass('badge-secondary') ;
-        allOperations        = allOperations.filter (function (operation) {
-          return (operation != id && operation.length) ;
-        }) ;
-        if (    $("#or").hasClass('badge-secondary')
-             && $("#mono").hasClass('badge-secondary')
-           )
-          $("#and").addClass('badge-secondary').addClass('pointer').removeClass("badge-disabled") ;
+        $("#double").removeClass("badge-disabled").addClass('badge-secondary') ;
+        alloperation        = "" ;
+     }  else {
+        that.removeClass('badge-disabled').addClass('badge-success') ;
+        $("#double").removeClass("badge-success").addClass('badge-disabled') ;
+        alloperation         = "mono" ;
+        $("#or").removeClass("badge-primary badge-success pointer").addClass("badge-secondary unselected") ;
+        $("#hi_or").val ('') ;
       }
     break ;
   }
-  write_help_types (allTypes, allOperations) ;
-  $('#hi_operations').val(allOperations.join("|")) ;
+  write_help_types (allTypes, alloperation, or) ;
+  $('#hi_operation').val(alloperation) ;
+  get_pokemons () ;
 }) ;
-function write_help_types (allTypes, allOperations) {
+/**************************/
+/**  HANDLING OR DOUBLE  **/
+/**************************/
+$("#or").on('click', function () {
+  let that                   = $(this) ;
+  if (that.hasClass("unselected")) {
+    return ;
+  }
+  let allTypes               =
+    $('#hi_types').val().split("|").filter (function (type) {
+      return type.length ;
+    }) ;
+  let alloperation          = $("#hi_operation").val ()  ;
+  let or                     = $("#hi_or").val () ;
+  if (that.hasClass("badge-primary")) {
+    that.removeClass("badge-primary").addClass("badge-success") ;
+    or                       = "or" ;
+  } else {
+    that.removeClass("badge-success").addClass("badge-primary") ;
+    or                       = "" ;
+  }
+  write_help_types (allTypes, alloperation, or) ;
+  $("#hi_or").val (or) ;
+  get_pokemons () ;
+}) ;
+/**************************/
+/**  WRITE TYPES SEARCH  **/
+/**************************/
+function write_help_types (allTypes, alloperation, or) {
   let help                   = "" ;
   if (! allTypes.length) {
-    if (   (    allOperations.length == 1
-             && allOperations [0] == "mono"
-           )
-        || allOperations.length == 2
-       ) {
+    if (alloperation == "mono") {
       help                  = "Search for pokemon with any mono-type." ;
-    } else if (   allOperations.length == 1
-               && allOperations [0] == "and"
+    } else if (   alloperation.length
+               && alloperation == "double"
               ) {
-      help                  = "Search for pokemon with any double type." ;
+      help                  = "Search for pokemon with any double-types." ;
     } else {
       help                  = "Search for pokemon with any type." ;
     }
   } else {
-    if (   allOperations.length == 1
-        && allOperations [0] != "mono"
-       ) {
+    if (alloperation.length) {
       let tmp                = "" ;
-      switch (allOperations [0]) {
-        case  "and":
-          help               = "Search pokemon with types" ;
-          for (let i = 0 ; i < allTypes.length-1 ; i++) {
-            for (let j = i+1 ; j < allTypes.length ; j++) {
-               if (   i == 0
-                   && j == 1
-                  ) {
-                 tmp           += " "+allTypes [i]+" and "+allTypes [j] ;
-               } else {
-                 tmp           += ", "+allTypes [i]+" and "+allTypes [j] ;
-               }
+      switch (alloperation) {
+        case "double":
+          help               = "Search for pokemon with" ;
+          if (allTypes.length == 1) {
+            help            += " any double-types including" ;
+            tmp             += " "+allTypes [0] ;
+          } else {
+            if (or.length) {
+              help          += " any double-types including" ;
+              for (let i = 0 ; i < allTypes.length ; i++) {
+                if (i == 0) {
+                   tmp      += " "+allTypes [i] ;
+                 } else if (i == allTypes.length-1) {
+                   tmp       += " or "+allTypes [i] ;
+                 } else {
+                   tmp      += ", "+allTypes [i] ;
+                 }
+              }
+            } else {
+              help            += " double-types" ;
+              for (let i = 0 ; i < allTypes.length-1 ; i++) {
+                for (let j = i+1 ; j < allTypes.length ; j++) {
+                   if (   i == 0
+                       && j == 1
+                      ) {
+                     tmp    += " "+allTypes [i]+" and "+allTypes [j] ;
+                   } else {
+                     tmp    += ", "+allTypes [i]+" and "+allTypes [j] ;
+                   }
+                }
+              }
             }
           }
-          help               = help+tmp+".";
+          help              += tmp+".";
         break ;
-        case   "or":
-          help               = "Search pokemon with types" ;
+        case   "mono":
+          help               = "Search for pokemon with mono-type" ;
           for (let i = 0 ; i < allTypes.length ; i ++) {
             if (i == 0) {
               tmp           += " "+allTypes [i] ;
-            } else {
+            } else if (i == allTypes.length-1) {
               tmp           += " or "+allTypes [i] ;
+            } else {
+              tmp           += ", "+allTypes [i] ;
             }
           }
-          help               = help+tmp+".";
+          help              += tmp+"." ;
         break ;
       }
-    } else if (allOperations.length) {
-      let tmp                = "" ;
-      help                   = "Search for pokemon with mono-type" ;
-      for (let i = 0 ; i < allTypes.length ; i ++) {
-        if (i == 0) {
-          tmp               += " "+allTypes [i] ;
-        } else {
-          tmp               += " or "+allTypes [i] ;
-        }
-      }
-      help                   = help+tmp+"." ;
     } else {
       let tmp                = "" ;
-      help                   = "Search for pokemon with type" ;
+      help                   = "Search for pokemon with type"+(allTypes.length>1?"s":"") ;
       for (let i = 0 ; i < allTypes.length ; i ++) {
         if (i == 0) {
           tmp               += " "+allTypes [i] ;
-        } else {
+        } else if (i == allTypes.length-1) {
           tmp               += " or "+allTypes [i] ;
+        } else {
+          tmp               += ", "+allTypes [i] ;
         }
       }
-      help                   = help+tmp+"." ;
+      help                  += tmp+"." ;
     }
   }
   $("#help_types").text (help) ;
@@ -161,7 +201,6 @@ function write_help_types (allTypes, allOperations) {
 /**************************/
 /** HANDLING GENERATIONS **/
 /**************************/
-
 $(".generation").on('click', function () {
   let that                   = $(this) ;
   let allGens                = $('#hi_generations').val().split("|") ;
@@ -209,4 +248,50 @@ $(".generation").on('click', function () {
   }
   $("#help_generations").text(help) ;
   $('#hi_generations').val(allGens.join("|")) ;
+  get_pokemons () ;
 }) ;
+/**************************/
+/** HANDLING GENERATIONS **/
+/**************************/
+function get_pokemons () {
+  let name                   = $("#name").val() ;
+  let types                  = $("#hi_types").val() ;
+  let generations            = $("#hi_generations").val() ;
+  let operation              = $("#hi_operation").val() ;
+  let or                     = $("#hi_or").val() ;
+  let params                 =
+              {          "name": name
+                ,       "types": types
+                , "generations": generations
+                ,   "operation": operation
+                ,          "or": or
+              } ;
+  $.post("/search", params)
+    .done(function (data) {
+      if (data.error) {
+        console.log (data) ;
+        return ;
+      }
+      let table              = $("<table>")
+                                 .attr ("id", "poke_table")
+                                 .addClass("table table-striped table-bordered table-dark table-hover")
+                                 .append (
+                                   $("<thead>")
+                                   .append (
+                                     $("<tr>")
+                                       .append($("<th>").text("Id"))
+                                       .append($("<th>").text("Sprite"))
+                                       .append($("<th>").text("Name"))
+                                       .append($("<th>").text("Types"))
+                                       .append($("<th>").text("Generation"))
+                                   )
+                                 )
+                                 ;
+      console.log (table) ;
+      let tbody              = $("<tbody>") ;
+      console.log (data) ;
+    })
+    .fail (function (e) {
+      console.log (e.status, e.statusText) ;
+    });
+}

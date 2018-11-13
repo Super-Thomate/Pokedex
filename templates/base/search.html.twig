@@ -1,5 +1,7 @@
 {%extends 'base/base.html.twig' %}
 {%block stylesheets%}
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="{{ asset('css/pokemon.css') }}">
     <link rel="stylesheet" href="{{ asset('css/search.css') }}">
 {%endblock%}
 {%block main%}
@@ -11,7 +13,7 @@
     <input class="form-control" type="text" name="name" id="name" placeholder="Pokename">
   </div>
   <div class="text-center">
-    <small id="help_name" class="form-text text-muted">
+    <small id="help_name" class="form-text">
       Search for pokemon with any name.
     </small>
   </div>
@@ -35,14 +37,14 @@
       <div class="badge badge-secondary pointer operator" id="mono">
         MONO
       </div>
-      <div class="badge badge-secondary pointer operator" id="and">
-        AND
-      </div>
-      <div class="badge badge-secondary pointer operator" id="or">
+      <div class="badge badge-secondary unselected" id="or">
         OR
       </div>
+      <div class="badge badge-secondary pointer operator" id="double">
+        DOUBLE
+      </div>
     </div>
-    <small id="help_types" class="form-text text-muted">
+    <small id="help_types" class="form-text">
      Search for pokemon with any type.
     </small>
     <hr>
@@ -53,25 +55,74 @@
       </div>
     {%endfor%}
     </div>
-    <small id="help_generations" class="form-text text-muted">
+    <small id="help_generations" class="form-text">
       Search for pokemon in any generation.
     </small>
     <hr>
-    <div class="mt-2">
-      <button class="btn btn-info" type="submit" id="submit">
-        Search
-      </button>
-    </div>
   </div>
   <!-- CONDITIONS -->
   <input type="hidden" name="hi_types"       id="hi_types"      >
   <input type="hidden" name="hi_generations" id="hi_generations">
   <input type="hidden" name="hi_operations"  id="hi_operations" >
+  <input type="hidden" name="hi_or"          id="hi_or" >
   <!-- HANDLER -->
   <input type="hidden" name="handler" value="search">
 </form>
-
+<div class="container">
+  <table id="poke_table" class="table table-striped table-bordered table-dark table-hover">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Sprite</th>
+        <th>Name</th>
+        <th>Types</th>
+        <th>Generation</th>
+      </tr>
+    </thead>
+    <tbody>
+    {%for pokemon in pokemons%}
+      <tr>
+        <td>
+          {{pokemon.formatedId}}
+         </td>
+        <td>
+          <img src="{{asset("img/mini_sprites/mini_#{pokemon.generation}/mini_#{pokemon.generation}_#{pokemon.formatedId}.png")}}">
+        </td>
+        <td>
+          {{pokemon.name}}
+        </td>
+        <td class="d-flex justify-content-start">
+          <div class="pointer types" id="{{pokemon.type1}}">
+            {{pokemon.type1|capitalize}}
+          </div>
+          {% if pokemon.type2 %}
+          <div class="pointer types" id="{{pokemon.type2}}">
+            {{pokemon.type2|capitalize}}
+          </div>
+          {% endif %}
+        </td>
+        <td>
+          {{pokemon.generation}}
+        </td>
+      </tr>
+    {%endfor%}
+    </tbody>
+  </table>
+</div>
 {%endblock%}
 {% block javascripts %}
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
     <script src="/script/search.js"></script>
+    <script>
+    $(document).ready( function () {
+      $('#poke_table')
+        .DataTable({
+             "searching": false
+          ,   "ordering": false
+          , "lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]]
+        })
+        ;
+    } );
+    </script>
 {% endblock %}

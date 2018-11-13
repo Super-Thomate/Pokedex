@@ -1,4 +1,7 @@
 {% extends 'base/base.html.twig' %}
+{%block stylesheets%}
+    <link rel="stylesheet" href="{{ asset('css/pokemon.css') }}">
+{%endblock%}
 {%block main%}
   <h2>All Pokemon</h2>
   <table>
@@ -20,10 +23,14 @@
       <td>
         {{pokemon.name}}
       </td>
-      <td>
-        <img src="{{asset("img/types/#{pokemon.type1}.png")}}" alt="">
+      <td class="d-flex justify-content-around">
+        <div class="pointer types" id="{{pokemon.type1}}">
+          {{pokemon.type1|capitalize}}
+        </div>
         {% if pokemon.type2 %}
-        <img src="{{asset("img/types/#{pokemon.type2}.png")}}" alt="">
+        <div class="pointer types" id="{{pokemon.type2}}">
+          {{pokemon.type2|capitalize}}
+        </div>
         {% endif %}
       </td>
       <td>

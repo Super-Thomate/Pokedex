@@ -25,8 +25,9 @@ class PokemonController extends AbstractController {
   public function allPokemon (Request $request) {
     // POST
     // $request->request->get('page');
+    $entityManager           = $this -> getDoctrine () -> getManager () ;
     $params                  = array () ;
-    $file                    = "csv/PokemonFr.csv" ;
+    $file                    = "csv/PokemonEn.csv" ;
     $allPokemon              = array () ;
     $firstGen                = array () ;
     $handle                  = fopen ($file, "r") ;
@@ -59,6 +60,22 @@ class PokemonController extends AbstractController {
     // echo "File (".count ($allPokemon).") : <pre>".print_r ($allPokemon, true)."</pre><br>" ;
     fclose ($handle) ;
     $ordered                 = $this -> sortArray ($allPokemon) ;
+    // Add all in db
+    /*
+    for ($n = 1 ; $n < count ($ordered)+1 ; $n++) {
+      $Infos                 = $ordered [$n] ;
+      $Pokemon               = new Pokemon () ;
+      $Pokemon 
+        -> setId ($Infos ["id"]) 
+        -> setName ($Infos ["name"]) 
+        -> setType1 ($Infos ["type1"])
+        -> setType2 ($Infos ["type2"])
+        -> setGeneration ($Infos ["generation"])
+        ;
+      $entityManager -> persist ($Pokemon) ;
+      $entityManager -> flush () ;
+    }
+    */
     //echo "Ordered (".count ($ordered).") : <pre>".print_r ($ordered, true)."</pre><br>" ;
     $params     ["pokemons"] = $ordered ;
     return $this -> render ('pokemon/all.html.twig', $params) ;

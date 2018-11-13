@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(80, 80, 80) ;
+  color: rgb(230, 230, 230) ;
+}
+  footer a
+, footer a:hover 
+, footer a:visited {
+  color: inherit;
+  text-decoration: none ;
+}
+/** Table **/
+li.page-item .page-link, li.page-item.disabled .page-link, li.page-item.active .page-link, li.page-item .page-link:hover {
+  color: white !important;
+  border: 1px solid black;
+  background-color: #323539;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #323539), color-stop(100%, #212529));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #323539 0%, #212529 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #323539 0%, #212529 100%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(top, #323539 0%, #212529 100%);
+  /* IE10+ */
+  background: -o-linear-gradient(top, #323539 0%, #212529 100%);
+  /* Opera 11.10+ */
+  background: linear-gradient(to bottom, #323539 0%, #212529 100%);
+  /* W3C */ 
+}
+li.page-item.active .page-link, li.page-item .page-link:hover {
+  background-color: #585858;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #585858), color-stop(100%, #23272b));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #585858 0%, #23272b 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #585858 0%, #23272b 100%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(top, #585858 0%, #23272b 100%);
+  /* IE10+ */
+  background: -o-linear-gradient(top, #585858 0%, #23272b 100%);
+  /* Opera 11.10+ */
+  background: linear-gradient(to bottom, #585858 0%, #23272b 100%);
+  /* W3C */  
+}
+li.page-item.disabled .page-link {
+   color: #868e96 !important;
+}
+/**    **/
+.input-group-text {
+  color: white !important;
+  border: 1px solid black;
+  background-color: #323539;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #323539), color-stop(100%, #212529));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #323539 0%, #212529 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #323539 0%, #212529 100%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(top, #323539 0%, #212529 100%);
+  /* IE10+ */
+  background: -o-linear-gradient(top, #323539 0%, #212529 100%);
+  /* Opera 11.10+ */
+  background: linear-gradient(to bottom, #323539 0%, #212529 100%);
+  /* W3C */ 
+}
+.form-control {
+  color: white !important;
+  border: 1px solid black;
+  background-color: #6c757d;
+}
+.custom-select:focus {
+    border-color: black;
+    outline: 0;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.075),0 0 5px rgba(128,189,255,.5);
+}
+.form-control:focus {
+    color: white !important;
+    border: 1px solid black;
+    background-color: #6c757d;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+}
